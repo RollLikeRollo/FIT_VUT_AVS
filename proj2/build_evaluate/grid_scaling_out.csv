@@ -1,0 +1,15 @@
+BUILDER_NAME;INPUT_FILE;OUTPUT_FILE;GRID_SIZE;ISO_LEVEL;FIELD_ELEMENTS;NUM_THREADS;ELAPSED_TIME;TOTAL_TRIANGLES;OUTPUT_SIZE
+OpenMP Loop;/home/xzbori20/avs/proj2/scripts/../data/bun_zipper_res3.pts;;8;0.15;1889;36;3;552;
+OpenMP Loop;/home/xzbori20/avs/proj2/scripts/../data/bun_zipper_res3.pts;;16;0.15;1889;36;26;2384;
+OpenMP Loop;/home/xzbori20/avs/proj2/scripts/../data/bun_zipper_res3.pts;;32;0.15;1889;36;206;9780;
+OpenMP Loop;/home/xzbori20/avs/proj2/scripts/../data/bun_zipper_res3.pts;;64;0.15;1889;36;832;40288;
+OpenMP Loop;/home/xzbori20/avs/proj2/scripts/../data/bun_zipper_res3.pts;;128;0.15;1889;36;1344;163220;
+OpenMP Loop;/home/xzbori20/avs/proj2/scripts/../data/bun_zipper_res3.pts;;256;0.15;1889;36;5787;655500;
+OpenMP Loop;/home/xzbori20/avs/proj2/scripts/../data/bun_zipper_res3.pts;;512;0.15;1889;36;41907;2628352;
+Octree;/home/xzbori20/avs/proj2/scripts/../data/bun_zipper_res3.pts;;8;0.15;1889;36;27;552;
+Octree;/home/xzbori20/avs/proj2/scripts/../data/bun_zipper_res3.pts;;16;0.15;1889;36;51;2384;
+Octree;/home/xzbori20/avs/proj2/scripts/../data/bun_zipper_res3.pts;;32;0.15;1889;36;150;9780;
+Octree;/home/xzbori20/avs/proj2/scripts/../data/bun_zipper_res3.pts;;64;0.15;1889;36;510;40288;
+Octree;/home/xzbori20/avs/proj2/scripts/../data/bun_zipper_res3.pts;;128;0.15;1889;36;2118;163220;
+Octree;/home/xzbori20/avs/proj2/scripts/../data/bun_zipper_res3.pts;;256;0.15;1889;36;6119;655500;
+Octree;/home/xzbori20/avs/proj2/scripts/../data/bun_zipper_res3.pts;;512;0.15;1889;36;39793;2628352;

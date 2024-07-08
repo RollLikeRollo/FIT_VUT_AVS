@@ -1,0 +1,120 @@
+10 [23004184029056] INFO perfrun.launcher <> - Launcher main begin
+11 [23004184029056] INFO perfrun.launcher <> - MessageCatalogInit finished
+11 [23004184029056] INFO perfrun.launcher <> - Launcher instance created
+11 [23004184029056] INFO perfrun.launcher <> - argc = 7; cmdline = /apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/bin64/amplxe-runss --ui-output-format xml --ui-output-fd 6 --option-file /home/xzbori20/avs/proj2/build_vtune/vtune-ref-18/config/runss.options 
+54 [23004184029056] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+54 [23004184029056] INFO perfrun.launcher <> - create file finder object
+54 [23004184029056] INFO perfrun.launcher <> - create a result directory: pattern = /home/xzbori20/avs/proj2/build_vtune/vtune-ref-18 pid = 4294967295
+56 [23004184029056] INFO perfrun.sdk <> - checked that the directory /home/xzbori20/avs/proj2/build_vtune/vtune-ref-18 is a local directory
+56 [23004184029056] INFO perfrun.sdk <> - the directory /home/xzbori20/avs/proj2/build_vtune/vtune-ref-18 is located on a share or its FS ID is unknown 26985
+56 [23004184029056] INFO perfrun.sdk <> - checked that the directory /tmp/pbs.744598.isrv1/amplxe-tmp-xzbori20 is a local directory
+56 [23004184029056] INFO perfrun.sdk <> - the directory /tmp/pbs.744598.isrv1/amplxe-tmp-xzbori20 is a local directory with FS type ID 1481003842
+57 [23004184029056] INFO perfrun.launcher <> - Create a local result directory /tmp/pbs.744598.isrv1/amplxe-tmp-xzbori20/amplxe-res-545894-7989106303720010 due to the user result path /home/xzbori20/avs/proj2/build_vtune/vtune-ref-18 is located on a share
+57 [23004184029056] INFO perfrun.launcher <> - create data directory = /tmp/pbs.744598.isrv1/amplxe-tmp-xzbori20/amplxe-res-545894-7989106303720010/data.0
+57 [23004184029056] INFO perfrun.launcher <> - create data directory = /home/xzbori20/avs/proj2/build_vtune/vtune-ref-18/data.0
+57 [23004184029056] INFO perfrun.launcher <> - Creating the master collection flag
+58 [23004184029056] INFO perfrun.launcher <> - Done creating the master collection flag
+60 [23004054361856] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+60 [23004054361856] INFO perfrun.sdk <> - Allocating TMU :/tmp/pbs.744598.isrv1/amplxe-tmp-xzbori20/amplxe-res-545894-7989106303720010/data.0/systemcollector-545894-cn11.barbora.it4i.cz.sc
+60 [23004054361856] INFO perfrun.system <> - Tpss based collection
+60 [23004054361856] INFO perfrun.launcher <> - plugin [ptracecollector] was disabled because it doesn't support the given collection type.
+60 [23004054361856] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+60 [23004054361856] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+60 [23004054361856] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+60 [23004054361856] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+60 [23004054361856] INFO perfrun.mrte <> - system-wide mode is 0
+61 [23004054361856] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+85 [23004054361856] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=/tmp/pbs.744598.isrv1/amplxe-tmp-xzbori20/amplxe-res-545894-7989106303720010/data.0
+85 [23004054361856] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=cn11.barbora.it4i.cz
+85 [23004054361856] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:amplxe_tpssmrte_javaprof_1.0 -Dsun.boot.library.path=/apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/lib32/runtime:/apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/lib64/runtime
+85 [23004054361856] INFO perfrun.mrte <> - LD_LIBRARY_PATH=/apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/lib32/runtime:/apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/lib64/runtime:/apps/all/libarchive/3.6.1-GCCcore-11.3.0/lib:/apps/all/XZ/5.2.5-GCCcore-11.3.0/lib:/apps/all/GCCcore/11.3.0/lib64:/apps/all/cURL/7.83.0-GCCcore-11.3.0/lib:/apps/all/OpenSSL/1.1/lib:/apps/all/bzip2/1.0.8-GCCcore-11.3.0/lib:/apps/all/ncurses/6.3-GCCcore-11.3.0/lib:/apps/all/intel-compilers/2022.1.0/tbb/2021.6.0/lib/intel64/gcc4.8:/apps/all/intel-compilers/2022.1.0/compiler/2022.1.0/linux/compiler/lib/intel64_lin:/apps/all/intel-compilers/2022.1.0/compiler/2022.1.0/linux/lib/x64:/apps/all/intel-compilers/2022.1.0/compiler/2022.1.0/linux/lib:/apps/all/binutils/2.38-GCCcore-11.3.0/lib:/apps/all/zlib/1.2.12-GCCcore-11.3.0/lib:/apps/all/GTK3/3.24.31-GCCcore-11.2.0/lib:/apps/all/libepoxy/1.5.8-GCCcore-11.2.0/lib:/apps/all/Mesa/21.1.7-GCCcore-11.2.0/lib:/apps/all/LLVM/12.0.1-GCCcore-11.2.0/lib:/apps/all/libunwind/1.5.0-GCCcore-11.2.0/lib:/apps/all/libglvnd/1.3.3-GCCcore-11.2.0/lib:/apps/all/libdrm/2.4.107-GCCcore-11.2.0/lib:/apps/all/Gdk-Pixbuf/2.42.6-GCCcore-11.2.0/lib:/apps/all/LibTIFF/4.3.0-GCCcore-11.2.0/lib:/apps/all/zstd/1.5.0-GCCcore-11.2.0/lib:/apps/all/lz4/1.9.3-GCCcore-11.2.0/lib:/apps/all/jbigkit/2.1-GCCcore-11.2.0/lib:/apps/all/libjpeg-turbo/2.0.6-GCCcore-11.2.0/lib:/apps/all/at-spi2-atk/2.38.0-GCCcore-11.2.0/lib:/apps/all/at-spi2-core/2.40.3-GCCcore-11.2.0/lib:/apps/all/DBus/1.13.18-GCCcore-11.2.0/lib:/apps/all/ATK/2.36.0-GCCcore-11.2.0/lib:/apps/all/Pango/1.48.8-GCCcore-11.2.0/lib:/apps/all/FriBidi/1.0.10-GCCcore-11.2.0/lib:/apps/all/HarfBuzz/2.8.2-GCCcore-11.2.0/lib:/apps/all/ICU/69.1-GCCcore-11.2.0/lib:/apps/all/cairo/1.16.0-GCCcore-11.2.0/lib:/apps/all/pixman/0.40.0-GCCcore-11.2.0/lib:/apps/all/GLib/2.69.1-GCCcore-11.2.0/lib:/apps/all/PCRE/8.45-GCCcore-11.2.0/lib:/apps/all/gettext/0.21-GCCcore-11.2.0/lib:/apps/all/libxml2/2.9.10-GCCcore-11.2.0/lib:/apps/all/libffi/3.4.2-GCCcore-11.2.0/lib64:/apps/all/X11/20210802-GCCcore-11.2.0/lib:/apps/all/libpciaccess/0.16-GCCcore-11.2.0/lib:/apps/all/fontconfig/2.13.94-GCCcore-11.2.0/lib:/apps/all/util-linux/2.37-GCCcore-11.2.0/lib:/apps/all/freetype/2.11.0-GCCcore-11.2.0/lib:/apps/all/Brotli/1.0.9-GCCcore-11.2.0/lib:/apps/all/libpng/1.6.37-GCCcore-11.2.0/lib:/apps/all/expat/2.4.1-GCCcore-11.2.0/lib:/apps/all/imkl-FFTW/2021.4.0-iimpi-2021b/lib:/apps/all/imkl/2021.4.0/mkl/2021.4.0/lib/intel64:/apps/all/imkl/2021.4.0/compiler/2021.4.0/linux/compiler/lib/intel64_lin:/apps/all/impi/2021.4.0-intel-compilers-2021.4.0/mpi/2021.4.0/libfabric/lib:/apps/all/impi/2021.4.0-intel-compilers-2021.4.0/mpi/2021.4.0/lib/release:/apps/all/impi/2021.4.0-intel-compilers-2021.4.0/mpi/2021.4.0/lib:/apps/all/UCX/1.11.2-GCCcore-11.2.0/lib:/apps/all/numactl/2.0.14-GCCcore-11.2.0/lib
+85 [23004054361856] INFO perfrun.mrte <> - CORECLR_ENABLE_PROFILING=1
+85 [23004054361856] INFO perfrun.mrte <> - CORECLR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+85 [23004054361856] INFO perfrun.mrte <> - CORECLR_PROFILER_PATH=/apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/lib64/libamplxe_samplingmrte_clrprof_1.0.so
+85 [23004054361856] INFO perfrun.mrte <> - INTEL_MRTE_PROFILER_MODE=mixed
+85 [23004054361856] INFO perfrun.mrte <> - Data directory: /tmp/pbs.744598.isrv1/amplxe-tmp-xzbori20/amplxe-res-545894-7989106303720010/data.0
+85 [23004054361856] INFO perfrun.mrte <> - Mrte plugin is initialized
+85 [23004054361856] INFO perfrun.launcher <> - plugin [emon] was disabled because it doesn't support the given collection type.
+85 [23004054361856] INFO perfrun.launcher <> - plugin [cuscol] was disabled because it doesn't support the given collection type.
+85 [23004054361856] INFO perfrun.launcher <> - plugin [stdsrc] was disabled because it doesn't support the given collection type.
+85 [23004054361856] INFO perfrun.launcher <> - plugin [sep] was disabled because it doesn't support the given collection type.
+85 [23004054361856] INFO perfrun.launcher <> - plugin [vtsspp] was disabled because it doesn't support the given collection type.
+85 [23004054361856] INFO perfrun.launcher <> - plugin [perf] was disabled because it doesn't support the given collection type.
+85 [23004054361856] INFO perfrun.launcher <> - plugin [aoclprofile] was disabled because it doesn't support the given collection type.
+85 [23004054361856] INFO perfrun.tpss <> - initialize tpss controller
+85 [23004054361856] INFO perfrun.tpss <> - configure collection mode: value = cpu:counters:nostack
+86 [23004054361856] INFO perfrun.tpss <> - configure collection mode: value = cpu:stack
+86 [23004054361856] INFO perfrun.tpss <> - configure collection mode: value = threading:stack
+86 [23004054361856] INFO perfrun.tpss <> - configure collection mode: value = waiting:stack
+86 [23004054361856] INFO perfrun.tpss <> - configure collection mode: value = io:stack
+86 [23004054361856] INFO perfrun.tpss <> - default obj-size-min=1024
+86 [23004054361856] INFO perfrun.tpss <> - default hash-table-size=0
+86 [23004054361856] INFO perfrun.launcher <> - plugin [media] was disabled because it doesn't support the given collection type.
+86 [23004054361856] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+86 [23004054361856] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+86 [23004054361856] INFO perfrun.launcher <> - plugin [parallelfs] was disabled because it doesn't support the given collection type.
+86 [23004054361856] INFO perfrun.launcher <> - plugin [power] was disabled because it doesn't support the given collection type.
+86 [23004054361856] INFO perfrun.launcher <> - plugin [hwloc] was disabled because it doesn't support the given collection type.
+86 [23004054361856] INFO perfrun.launcher <> - plugin [ipmwatch] was disabled because it doesn't support the given collection type.
+86 [23004054361856] INFO perfrun.launcher <> - plugin [os_counters] was disabled because it doesn't support the given collection type.
+86 [23004054361856] INFO perfrun.launcher <> - plugin [l0_metrics] was disabled because it doesn't support the given collection type.
+86 [23004184029056] INFO perfrun.launcher <> - set environment variable: LD_LIBRARY_PATH = /apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/lib32/runtime:/apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/lib64/runtime:/apps/all/libarchive/3.6.1-GCCcore-11.3.0/lib:/apps/all/XZ/5.2.5-GCCcore-11.3.0/lib:/apps/all/GCCcore/11.3.0/lib64:/apps/all/cURL/7.83.0-GCCcore-11.3.0/lib:/apps/all/OpenSSL/1.1/lib:/apps/all/bzip2/1.0.8-GCCcore-11.3.0/lib:/apps/all/ncurses/6.3-GCCcore-11.3.0/lib:/apps/all/intel-compilers/2022.1.0/tbb/2021.6.0/lib/intel64/gcc4.8:/apps/all/intel-compilers/2022.1.0/compiler/2022.1.0/linux/compiler/lib/intel64_lin:/apps/all/intel-compilers/2022.1.0/compiler/2022.1.0/linux/lib/x64:/apps/all/intel-compilers/2022.1.0/compiler/2022.1.0/linux/lib:/apps/all/binutils/2.38-GCCcore-11.3.0/lib:/apps/all/zlib/1.2.12-GCCcore-11.3.0/lib:/apps/all/GTK3/3.24.31-GCCcore-11.2.0/lib:/apps/all/libepoxy/1.5.8-GCCcore-11.2.0/lib:/apps/all/Mesa/21.1.7-GCCcore-11.2.0/lib:/apps/all/LLVM/12.0.1-GCCcore-11.2.0/lib:/apps/all/libunwind/1.5.0-GCCcore-11.2.0/lib:/apps/all/libglvnd/1.3.3-GCCcore-11.2.0/lib:/apps/all/libdrm/2.4.107-GCCcore-11.2.0/lib:/apps/all/Gdk-Pixbuf/2.42.6-GCCcore-11.2.0/lib:/apps/all/LibTIFF/4.3.0-GCCcore-11.2.0/lib:/apps/all/zstd/1.5.0-GCCcore-11.2.0/lib:/apps/all/lz4/1.9.3-GCCcore-11.2.0/lib:/apps/all/jbigkit/2.1-GCCcore-11.2.0/lib:/apps/all/libjpeg-turbo/2.0.6-GCCcore-11.2.0/lib:/apps/all/at-spi2-atk/2.38.0-GCCcore-11.2.0/lib:/apps/all/at-spi2-core/2.40.3-GCCcore-11.2.0/lib:/apps/all/DBus/1.13.18-GCCcore-11.2.0/lib:/apps/all/ATK/2.36.0-GCCcore-11.2.0/lib:/apps/all/Pango/1.48.8-GCCcore-11.2.0/lib:/apps/all/FriBidi/1.0.10-GCCcore-11.2.0/lib:/apps/all/HarfBuzz/2.8.2-GCCcore-11.2.0/lib:/apps/all/ICU/69.1-GCCcore-11.2.0/lib:/apps/all/cairo/1.16.0-GCCcore-11.2.0/lib:/apps/all/pixman/0.40.0-GCCcore-11.2.0/lib:/apps/all/GLib/2.69.1-GCCcore-11.2.0/lib:/apps/all/PCRE/8.45-GCCcore-11.2.0/lib:/apps/all/gettext/0.21-GCCcore-11.2.0/lib:/apps/all/libxml2/2.9.10-GCCcore-11.2.0/lib:/apps/all/libffi/3.4.2-GCCcore-11.2.0/lib64:/apps/all/X11/20210802-GCCcore-11.2.0/lib:/apps/all/libpciaccess/0.16-GCCcore-11.2.0/lib:/apps/all/fontconfig/2.13.94-GCCcore-11.2.0/lib:/apps/all/util-linux/2.37-GCCcore-11.2.0/lib:/apps/all/freetype/2.11.0-GCCcore-11.2.0/lib:/apps/all/Brotli/1.0.9-GCCcore-11.2.0/lib:/apps/all/libpng/1.6.37-GCCcore-11.2.0/lib:/apps/all/expat/2.4.1-GCCcore-11.2.0/lib:/apps/all/imkl-FFTW/2021.4.0-iimpi-2021b/lib:/apps/all/imkl/2021.4.0/mkl/2021.4.0/lib/intel64:/apps/all/imkl/2021.4.0/compiler/2021.4.0/linux/compiler/lib/intel64_lin:/apps/all/impi/2021.4.0-intel-compilers-2021.4.0/mpi/2021.4.0/libfabric/lib:/apps/all/impi/2021.4.0-intel-compilers-2021.4.0/mpi/2021.4.0/lib/release:/apps/all/impi/2021.4.0-intel-compilers-2021.4.0/mpi/2021.4.0/lib:/apps/all/UCX/1.11.2-GCCcore-11.2.0/lib:/apps/all/numactl/2.0.14-GCCcore-11.2.0/lib
+86 [23004184029056] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = /apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/lib32/runtime/libittnotify_collector.so
+86 [23004184029056] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = /apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/lib64/runtime/libittnotify_collector.so
+86 [23004184029056] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+86 [23004184029056] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = /apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/lib32/runtime/libittnotify_collector.so
+86 [23004184029056] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = /apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/lib64/runtime/libittnotify_collector.so
+86 [23004184029056] INFO perfrun.launcher <> - set environment variable: VS_PROFILER = libittnotify_collector.so
+86 [23004184029056] INFO perfrun.launcher <> - set environment variable: OMP_TOOL_LIBRARIES = /apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/lib32/runtime/libittnotify_collector.so:/apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/lib64/runtime/libittnotify_collector.so
+86 [23004184029056] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+86 [23004184029056] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+86 [23004184029056] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = /tmp/pbs.744598.isrv1/amplxe-tmp-xzbori20/amplxe-res-545894-7989106303720010/data.0
+86 [23004184029056] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = cn11.barbora.it4i.cz
+86 [23004184029056] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:amplxe_tpssmrte_javaprof_1.0 -Dsun.boot.library.path=/apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/lib32/runtime:/apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/lib64/runtime
+86 [23004184029056] INFO perfrun.launcher <> - set environment variable: LD_LIBRARY_PATH = /apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/lib32/runtime:/apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/lib64/runtime:/apps/all/libarchive/3.6.1-GCCcore-11.3.0/lib:/apps/all/XZ/5.2.5-GCCcore-11.3.0/lib:/apps/all/GCCcore/11.3.0/lib64:/apps/all/cURL/7.83.0-GCCcore-11.3.0/lib:/apps/all/OpenSSL/1.1/lib:/apps/all/bzip2/1.0.8-GCCcore-11.3.0/lib:/apps/all/ncurses/6.3-GCCcore-11.3.0/lib:/apps/all/intel-compilers/2022.1.0/tbb/2021.6.0/lib/intel64/gcc4.8:/apps/all/intel-compilers/2022.1.0/compiler/2022.1.0/linux/compiler/lib/intel64_lin:/apps/all/intel-compilers/2022.1.0/compiler/2022.1.0/linux/lib/x64:/apps/all/intel-compilers/2022.1.0/compiler/2022.1.0/linux/lib:/apps/all/binutils/2.38-GCCcore-11.3.0/lib:/apps/all/zlib/1.2.12-GCCcore-11.3.0/lib:/apps/all/GTK3/3.24.31-GCCcore-11.2.0/lib:/apps/all/libepoxy/1.5.8-GCCcore-11.2.0/lib:/apps/all/Mesa/21.1.7-GCCcore-11.2.0/lib:/apps/all/LLVM/12.0.1-GCCcore-11.2.0/lib:/apps/all/libunwind/1.5.0-GCCcore-11.2.0/lib:/apps/all/libglvnd/1.3.3-GCCcore-11.2.0/lib:/apps/all/libdrm/2.4.107-GCCcore-11.2.0/lib:/apps/all/Gdk-Pixbuf/2.42.6-GCCcore-11.2.0/lib:/apps/all/LibTIFF/4.3.0-GCCcore-11.2.0/lib:/apps/all/zstd/1.5.0-GCCcore-11.2.0/lib:/apps/all/lz4/1.9.3-GCCcore-11.2.0/lib:/apps/all/jbigkit/2.1-GCCcore-11.2.0/lib:/apps/all/libjpeg-turbo/2.0.6-GCCcore-11.2.0/lib:/apps/all/at-spi2-atk/2.38.0-GCCcore-11.2.0/lib:/apps/all/at-spi2-core/2.40.3-GCCcore-11.2.0/lib:/apps/all/DBus/1.13.18-GCCcore-11.2.0/lib:/apps/all/ATK/2.36.0-GCCcore-11.2.0/lib:/apps/all/Pango/1.48.8-GCCcore-11.2.0/lib:/apps/all/FriBidi/1.0.10-GCCcore-11.2.0/lib:/apps/all/HarfBuzz/2.8.2-GCCcore-11.2.0/lib:/apps/all/ICU/69.1-GCCcore-11.2.0/lib:/apps/all/cairo/1.16.0-GCCcore-11.2.0/lib:/apps/all/pixman/0.40.0-GCCcore-11.2.0/lib:/apps/all/GLib/2.69.1-GCCcore-11.2.0/lib:/apps/all/PCRE/8.45-GCCcore-11.2.0/lib:/apps/all/gettext/0.21-GCCcore-11.2.0/lib:/apps/all/libxml2/2.9.10-GCCcore-11.2.0/lib:/apps/all/libffi/3.4.2-GCCcore-11.2.0/lib64:/apps/all/X11/20210802-GCCcore-11.2.0/lib:/apps/all/libpciaccess/0.16-GCCcore-11.2.0/lib:/apps/all/fontconfig/2.13.94-GCCcore-11.2.0/lib:/apps/all/util-linux/2.37-GCCcore-11.2.0/lib:/apps/all/freetype/2.11.0-GCCcore-11.2.0/lib:/apps/all/Brotli/1.0.9-GCCcore-11.2.0/lib:/apps/all/libpng/1.6.37-GCCcore-11.2.0/lib:/apps/all/expat/2.4.1-GCCcore-11.2.0/lib:/apps/all/imkl-FFTW/2021.4.0-iimpi-2021b/lib:/apps/all/imkl/2021.4.0/mkl/2021.4.0/lib/intel64:/apps/all/imkl/2021.4.0/compiler/2021.4.0/linux/compiler/lib/intel64_lin:/apps/all/impi/2021.4.0-intel-compilers-2021.4.0/mpi/2021.4.0/libfabric/lib:/apps/all/impi/2021.4.0-intel-compilers-2021.4.0/mpi/2021.4.0/lib/release:/apps/all/impi/2021.4.0-intel-compilers-2021.4.0/mpi/2021.4.0/lib:/apps/all/UCX/1.11.2-GCCcore-11.2.0/lib:/apps/all/numactl/2.0.14-GCCcore-11.2.0/lib
+86 [23004184029056] INFO perfrun.launcher <> - set environment variable: CORECLR_ENABLE_PROFILING = 1
+86 [23004184029056] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+86 [23004184029056] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER_PATH = /apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/lib64/libamplxe_samplingmrte_clrprof_1.0.so
+86 [23004184029056] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_PROFILER_MODE = mixed
+86 [23004184029056] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+86 [23004184029056] INFO perfrun.launcher <> - Launcher: command line to start before modification = ./PMC --builder ref -t 18 --grid 128 ../data/bun_zipper_res3.pts
+87 [23004184029056] INFO perfrun.launcher <> - Launcher: command line to start after modification = /apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/bin64/pin -error_file /tmp/pbs.744598.isrv1/amplxe-tmp-xzbori20/amplxe-res-545894-7989106303720010/data.0/pinerr.tpsslog -detach_reattach -follow_execv -tool_load_option deepbind -t64 /apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/lib64/libtpsstool.so -t /apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/lib32/libtpsstool.so -server_name tpss_ipc.545894 -prd_dir /apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0 -- ./PMC --builder ref -t 18 --grid 128 ../data/bun_zipper_res3.pts
+87 [23004184029056] INFO perfrun.launcher <> - ProcessCreator object was created
+87 [23004184029056] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+91 [23004054361856] WARN perfrun.system <> - Could not do anything with /sys/kernel/debug/kvm: boost::filesystem::status: Permission denied: "/sys/kernel/debug/kvm", at file: vcs/perfrun1/plugins/system/src/trace_writer.cpp:787
+91 [23004054361856] WARN perfrun.system <> - Folder "/var/run/libvirt/qemu/"doesn't exist, at file: vcs/perfrun1/plugins/system/src/trace_writer.cpp:800
+93 [23004054361856] INFO perfrun.sdk <> - runCmd: /apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/bin64/sep -platform-info
+93 [23004054361856] INFO perfrun.sdk <> - runCmd started PID 545900
+108 [23004054361856] WARN perfrun.sdk <> - SEP driver is not available, at file: vcs/perfrun1/plugins/pluginsdk/src/device_mapper.cpp:745
+108 [23004054361856] INFO perfrun.sdk <> - runCmd: /apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/bin64/amplxe-perf stat --iostat=list
+108 [23004054361856] INFO perfrun.sdk <> - runCmd started PID 545901
+114 [23004054361856] WARN perfrun.sdk <> - Device mapping through perf is not available on current kernel, at file: vcs/perfrun1/plugins/pluginsdk/src/device_mapper.cpp:943
+117 [23004054361856] INFO perfrun.sdk <> - runCmd: /apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/bin64/sep -platform-info
+117 [23004054361856] INFO perfrun.sdk <> - runCmd started PID 545902
+127 [23004054361856] WARN perfrun.sdk <> - SEP driver is not available, at file: vcs/perfrun1/plugins/pluginsdk/src/device_mapper.cpp:745
+127 [23004054361856] WARN perfrun.sdk <> - Failed to find xl binary on any of the system paths: /bin, /sbin, /usr/bin, /usr/sbin., at file: vcs/perfrun1/sdk/src/utils.cpp:204
+128 [23004054361856] WARN perfrun.system <> - Could not start ContainerMapping collector, at file: vcs/perfrun1/plugins/system/src/controller.cpp:448
+130 [23004054361856] INFO perfrun.vdso <> - Helper runtool '/apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/bin32/amplxe-runss -dump-vdso -r /tmp/pbs.744598.isrv1/amplxe-tmp-xzbori20/amplxe-res-545894-7989106303720010 --tmp-dir /tmp/pbs.744598.isrv1/amplxe-tmp-xzbori20' returned 1
+213 [23004054361856] INFO perfrun.vdso <> - Helper runtool '/apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/bin64/amplxe-runss -dump-vdso -r /tmp/pbs.744598.isrv1/amplxe-tmp-xzbori20/amplxe-res-545894-7989106303720010 --tmp-dir /tmp/pbs.744598.isrv1/amplxe-tmp-xzbori20' returned 0
+213 [23004054361856] INFO perfrun.itt <> - start itt controller for pid #545899
+213 [23004054361856] INFO perfrun.tpss <> - start tpss controller for pid #545899
+263 [23004184029056] INFO perfrun.launcher <> - Launcher: all plugins were started
+263 [23004184029056] INFO perfrun.launcher <> - DirectoryMonitor object was created
+263 [23004184029056] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+263 [23004184029056] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+263 [23004184029056] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+263 [23004184029056] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+265 [23004184029056] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+24154 [23004184029056] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+24157 [23004054361856] INFO perfrun.itt <> - detach itt controller
+24157 [23004054361856] INFO perfrun.itt <> - detach itt controller done
+24157 [23004054361856] INFO perfrun.tpss <> - stop tpss controller
+24157 [23004054361856] INFO perfrun.sdk <> - De-allocating TMU: /tmp/pbs.744598.isrv1/amplxe-tmp-xzbori20/amplxe-res-545894-7989106303720010/data.0/systemcollector-545894-cn11.barbora.it4i.cz.sc
+24157 [23004054361856] INFO perfrun.system <> - closed the system trace file: /tmp/pbs.744598.isrv1/amplxe-tmp-xzbori20/amplxe-res-545894-7989106303720010/data.0/systemcollector-545894-cn11.barbora.it4i.cz.sc
+24157 [23004184029056] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+24157 [23004184029056] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+24157 [23004184029056] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+24157 [23004184029056] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+24157 [23004184029056] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs/perfrun1/launcher/src/command_handler.cpp:226
+24164 [23004184029056] INFO perfrun.launcher <> - Application exit code: 0
+24164 [23004184029056] INFO perfrun.launcher <> - Exit code: 0

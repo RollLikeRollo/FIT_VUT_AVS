@@ -1,0 +1,50 @@
+-- The CXX compiler identification is Intel 2021.6.0.20220226
+-- The C compiler identification is Intel 2021.6.0.20220226
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /apps/all/intel-compilers/2022.1.0/compiler/2022.1.0/linux/bin/intel64/icpc - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /apps/all/intel-compilers/2022.1.0/compiler/2022.1.0/linux/bin/intel64/icc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found OpenMP_C: -qopenmp (found version "5.0") 
+-- Found OpenMP_CXX: -qopenmp (found version "5.0") 
+-- Found OpenMP: TRUE (found version "5.0")  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xzbori20/avs/proj2/build_evaluate
+/apps/all/CMake/3.23.1-GCCcore-11.3.0/bin/cmake -S/home/xzbori20/avs/proj2 -B/home/xzbori20/avs/proj2/build_evaluate --check-build-system CMakeFiles/Makefile.cmake 0
+/apps/all/CMake/3.23.1-GCCcore-11.3.0/bin/cmake -E cmake_progress_start /home/xzbori20/avs/proj2/build_evaluate/CMakeFiles /home/xzbori20/avs/proj2/build_evaluate//CMakeFiles/progress.marks
+make  -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/xzbori20/avs/proj2/build_evaluate'
+make  -f CMakeFiles/PMC.dir/build.make CMakeFiles/PMC.dir/depend
+make[2]: Entering directory '/home/xzbori20/avs/proj2/build_evaluate'
+cd /home/xzbori20/avs/proj2/build_evaluate && /apps/all/CMake/3.23.1-GCCcore-11.3.0/bin/cmake -E cmake_depends "Unix Makefiles" /home/xzbori20/avs/proj2 /home/xzbori20/avs/proj2 /home/xzbori20/avs/proj2/build_evaluate /home/xzbori20/avs/proj2/build_evaluate /home/xzbori20/avs/proj2/build_evaluate/CMakeFiles/PMC.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/xzbori20/avs/proj2/build_evaluate'
+make  -f CMakeFiles/PMC.dir/build.make CMakeFiles/PMC.dir/build
+make[2]: Entering directory '/home/xzbori20/avs/proj2/build_evaluate'
+[ 14%] Building CXX object CMakeFiles/PMC.dir/common/base_mesh_builder.cpp.o
+/apps/all/intel-compilers/2022.1.0/compiler/2022.1.0/linux/bin/intel64/icpc  -I/home/xzbori20/avs/proj2/common -I/home/xzbori20/avs/proj2/parallel_builder -O3 -xHost -qopt-zmm-usage=high -g -qopenmp-simd  -qopenmp -qopenmp -std=gnu++11 -MD -MT CMakeFiles/PMC.dir/common/base_mesh_builder.cpp.o -MF CMakeFiles/PMC.dir/common/base_mesh_builder.cpp.o.d -o CMakeFiles/PMC.dir/common/base_mesh_builder.cpp.o -c /home/xzbori20/avs/proj2/common/base_mesh_builder.cpp
+[ 28%] Building CXX object CMakeFiles/PMC.dir/common/parametric_scalar_field.cpp.o
+/apps/all/intel-compilers/2022.1.0/compiler/2022.1.0/linux/bin/intel64/icpc  -I/home/xzbori20/avs/proj2/common -I/home/xzbori20/avs/proj2/parallel_builder -O3 -xHost -qopt-zmm-usage=high -g -qopenmp-simd  -qopenmp -qopenmp -std=gnu++11 -MD -MT CMakeFiles/PMC.dir/common/parametric_scalar_field.cpp.o -MF CMakeFiles/PMC.dir/common/parametric_scalar_field.cpp.o.d -o CMakeFiles/PMC.dir/common/parametric_scalar_field.cpp.o -c /home/xzbori20/avs/proj2/common/parametric_scalar_field.cpp
+[ 42%] Building CXX object CMakeFiles/PMC.dir/common/ref_mesh_builder.cpp.o
+/apps/all/intel-compilers/2022.1.0/compiler/2022.1.0/linux/bin/intel64/icpc  -I/home/xzbori20/avs/proj2/common -I/home/xzbori20/avs/proj2/parallel_builder -O3 -xHost -qopt-zmm-usage=high -g -qopenmp-simd  -qopenmp -qopenmp -std=gnu++11 -MD -MT CMakeFiles/PMC.dir/common/ref_mesh_builder.cpp.o -MF CMakeFiles/PMC.dir/common/ref_mesh_builder.cpp.o.d -o CMakeFiles/PMC.dir/common/ref_mesh_builder.cpp.o -c /home/xzbori20/avs/proj2/common/ref_mesh_builder.cpp
+[ 57%] Building CXX object CMakeFiles/PMC.dir/parallel_builder/loop_mesh_builder.cpp.o
+/apps/all/intel-compilers/2022.1.0/compiler/2022.1.0/linux/bin/intel64/icpc  -I/home/xzbori20/avs/proj2/common -I/home/xzbori20/avs/proj2/parallel_builder -O3 -xHost -qopt-zmm-usage=high -g -qopenmp-simd  -qopenmp -qopenmp -std=gnu++11 -MD -MT CMakeFiles/PMC.dir/parallel_builder/loop_mesh_builder.cpp.o -MF CMakeFiles/PMC.dir/parallel_builder/loop_mesh_builder.cpp.o.d -o CMakeFiles/PMC.dir/parallel_builder/loop_mesh_builder.cpp.o -c /home/xzbori20/avs/proj2/parallel_builder/loop_mesh_builder.cpp
+[ 71%] Building CXX object CMakeFiles/PMC.dir/parallel_builder/tree_mesh_builder.cpp.o
+/apps/all/intel-compilers/2022.1.0/compiler/2022.1.0/linux/bin/intel64/icpc  -I/home/xzbori20/avs/proj2/common -I/home/xzbori20/avs/proj2/parallel_builder -O3 -xHost -qopt-zmm-usage=high -g -qopenmp-simd  -qopenmp -qopenmp -std=gnu++11 -MD -MT CMakeFiles/PMC.dir/parallel_builder/tree_mesh_builder.cpp.o -MF CMakeFiles/PMC.dir/parallel_builder/tree_mesh_builder.cpp.o.d -o CMakeFiles/PMC.dir/parallel_builder/tree_mesh_builder.cpp.o -c /home/xzbori20/avs/proj2/parallel_builder/tree_mesh_builder.cpp
+[ 85%] Building CXX object CMakeFiles/PMC.dir/main.cpp.o
+/apps/all/intel-compilers/2022.1.0/compiler/2022.1.0/linux/bin/intel64/icpc  -I/home/xzbori20/avs/proj2/common -I/home/xzbori20/avs/proj2/parallel_builder -O3 -xHost -qopt-zmm-usage=high -g -qopenmp-simd  -qopenmp -qopenmp -std=gnu++11 -MD -MT CMakeFiles/PMC.dir/main.cpp.o -MF CMakeFiles/PMC.dir/main.cpp.o.d -o CMakeFiles/PMC.dir/main.cpp.o -c /home/xzbori20/avs/proj2/main.cpp
+[100%] Linking CXX executable PMC
+/apps/all/CMake/3.23.1-GCCcore-11.3.0/bin/cmake -E cmake_link_script CMakeFiles/PMC.dir/link.txt --verbose=1
+/apps/all/intel-compilers/2022.1.0/compiler/2022.1.0/linux/bin/intel64/icpc -O3 -xHost -qopt-zmm-usage=high -g -qopenmp-simd  -qopenmp CMakeFiles/PMC.dir/common/base_mesh_builder.cpp.o CMakeFiles/PMC.dir/common/parametric_scalar_field.cpp.o CMakeFiles/PMC.dir/common/ref_mesh_builder.cpp.o CMakeFiles/PMC.dir/parallel_builder/loop_mesh_builder.cpp.o CMakeFiles/PMC.dir/parallel_builder/tree_mesh_builder.cpp.o CMakeFiles/PMC.dir/main.cpp.o -o PMC  /apps/all/intel-compilers/2022.1.0/compiler/2022.1.0/linux/compiler/lib/intel64_lin/libiomp5.so /lib64/libpthread.so 
+make[2]: Leaving directory '/home/xzbori20/avs/proj2/build_evaluate'
+[100%] Built target PMC
+make[1]: Leaving directory '/home/xzbori20/avs/proj2/build_evaluate'
+/apps/all/CMake/3.23.1-GCCcore-11.3.0/bin/cmake -E cmake_progress_start /home/xzbori20/avs/proj2/build_evaluate/CMakeFiles 0
+Measuring grid size scaling
+Measuring input size scaling
+Creating scaling plots

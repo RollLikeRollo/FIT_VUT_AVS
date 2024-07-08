@@ -1,0 +1,482 @@
+-- The CXX compiler identification is Intel 2021.4.0.20210910
+-- The C compiler identification is Intel 2021.4.0.20210910
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /apps/all/intel-compilers/2021.4.0/compiler/2021.4.0/linux/bin/intel64/icpc - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /apps/all/intel-compilers/2021.4.0/compiler/2021.4.0/linux/bin/intel64/icc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found OpenMP_C: -qopenmp (found version "5.0") 
+-- Found OpenMP_CXX: -qopenmp (found version "5.0") 
+-- Found OpenMP: TRUE (found version "5.0")  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xzbori20/avs/proj2/build_vtune
+/apps/all/CMake/3.23.1-GCCcore-11.3.0/bin/cmake -S/home/xzbori20/avs/proj2 -B/home/xzbori20/avs/proj2/build_vtune --check-build-system CMakeFiles/Makefile.cmake 0
+/apps/all/CMake/3.23.1-GCCcore-11.3.0/bin/cmake -E cmake_progress_start /home/xzbori20/avs/proj2/build_vtune/CMakeFiles /home/xzbori20/avs/proj2/build_vtune//CMakeFiles/progress.marks
+make  -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/xzbori20/avs/proj2/build_vtune'
+make  -f CMakeFiles/PMC.dir/build.make CMakeFiles/PMC.dir/depend
+make[2]: Entering directory '/home/xzbori20/avs/proj2/build_vtune'
+cd /home/xzbori20/avs/proj2/build_vtune && /apps/all/CMake/3.23.1-GCCcore-11.3.0/bin/cmake -E cmake_depends "Unix Makefiles" /home/xzbori20/avs/proj2 /home/xzbori20/avs/proj2 /home/xzbori20/avs/proj2/build_vtune /home/xzbori20/avs/proj2/build_vtune /home/xzbori20/avs/proj2/build_vtune/CMakeFiles/PMC.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/xzbori20/avs/proj2/build_vtune'
+make  -f CMakeFiles/PMC.dir/build.make CMakeFiles/PMC.dir/build
+make[2]: Entering directory '/home/xzbori20/avs/proj2/build_vtune'
+[ 14%] Building CXX object CMakeFiles/PMC.dir/common/base_mesh_builder.cpp.o
+/apps/all/intel-compilers/2021.4.0/compiler/2021.4.0/linux/bin/intel64/icpc  -I/home/xzbori20/avs/proj2/common -I/home/xzbori20/avs/proj2/parallel_builder -O3 -xHost -qopt-zmm-usage=high -g -qopenmp-simd  -qopenmp -qopenmp -std=gnu++11 -MD -MT CMakeFiles/PMC.dir/common/base_mesh_builder.cpp.o -MF CMakeFiles/PMC.dir/common/base_mesh_builder.cpp.o.d -o CMakeFiles/PMC.dir/common/base_mesh_builder.cpp.o -c /home/xzbori20/avs/proj2/common/base_mesh_builder.cpp
+[ 28%] Building CXX object CMakeFiles/PMC.dir/common/parametric_scalar_field.cpp.o
+/apps/all/intel-compilers/2021.4.0/compiler/2021.4.0/linux/bin/intel64/icpc  -I/home/xzbori20/avs/proj2/common -I/home/xzbori20/avs/proj2/parallel_builder -O3 -xHost -qopt-zmm-usage=high -g -qopenmp-simd  -qopenmp -qopenmp -std=gnu++11 -MD -MT CMakeFiles/PMC.dir/common/parametric_scalar_field.cpp.o -MF CMakeFiles/PMC.dir/common/parametric_scalar_field.cpp.o.d -o CMakeFiles/PMC.dir/common/parametric_scalar_field.cpp.o -c /home/xzbori20/avs/proj2/common/parametric_scalar_field.cpp
+[ 42%] Building CXX object CMakeFiles/PMC.dir/common/ref_mesh_builder.cpp.o
+/apps/all/intel-compilers/2021.4.0/compiler/2021.4.0/linux/bin/intel64/icpc  -I/home/xzbori20/avs/proj2/common -I/home/xzbori20/avs/proj2/parallel_builder -O3 -xHost -qopt-zmm-usage=high -g -qopenmp-simd  -qopenmp -qopenmp -std=gnu++11 -MD -MT CMakeFiles/PMC.dir/common/ref_mesh_builder.cpp.o -MF CMakeFiles/PMC.dir/common/ref_mesh_builder.cpp.o.d -o CMakeFiles/PMC.dir/common/ref_mesh_builder.cpp.o -c /home/xzbori20/avs/proj2/common/ref_mesh_builder.cpp
+[ 57%] Building CXX object CMakeFiles/PMC.dir/parallel_builder/loop_mesh_builder.cpp.o
+/apps/all/intel-compilers/2021.4.0/compiler/2021.4.0/linux/bin/intel64/icpc  -I/home/xzbori20/avs/proj2/common -I/home/xzbori20/avs/proj2/parallel_builder -O3 -xHost -qopt-zmm-usage=high -g -qopenmp-simd  -qopenmp -qopenmp -std=gnu++11 -MD -MT CMakeFiles/PMC.dir/parallel_builder/loop_mesh_builder.cpp.o -MF CMakeFiles/PMC.dir/parallel_builder/loop_mesh_builder.cpp.o.d -o CMakeFiles/PMC.dir/parallel_builder/loop_mesh_builder.cpp.o -c /home/xzbori20/avs/proj2/parallel_builder/loop_mesh_builder.cpp
+[ 71%] Building CXX object CMakeFiles/PMC.dir/parallel_builder/tree_mesh_builder.cpp.o
+/apps/all/intel-compilers/2021.4.0/compiler/2021.4.0/linux/bin/intel64/icpc  -I/home/xzbori20/avs/proj2/common -I/home/xzbori20/avs/proj2/parallel_builder -O3 -xHost -qopt-zmm-usage=high -g -qopenmp-simd  -qopenmp -qopenmp -std=gnu++11 -MD -MT CMakeFiles/PMC.dir/parallel_builder/tree_mesh_builder.cpp.o -MF CMakeFiles/PMC.dir/parallel_builder/tree_mesh_builder.cpp.o.d -o CMakeFiles/PMC.dir/parallel_builder/tree_mesh_builder.cpp.o -c /home/xzbori20/avs/proj2/parallel_builder/tree_mesh_builder.cpp
+[ 85%] Building CXX object CMakeFiles/PMC.dir/main.cpp.o
+/apps/all/intel-compilers/2021.4.0/compiler/2021.4.0/linux/bin/intel64/icpc  -I/home/xzbori20/avs/proj2/common -I/home/xzbori20/avs/proj2/parallel_builder -O3 -xHost -qopt-zmm-usage=high -g -qopenmp-simd  -qopenmp -qopenmp -std=gnu++11 -MD -MT CMakeFiles/PMC.dir/main.cpp.o -MF CMakeFiles/PMC.dir/main.cpp.o.d -o CMakeFiles/PMC.dir/main.cpp.o -c /home/xzbori20/avs/proj2/main.cpp
+[100%] Linking CXX executable PMC
+/apps/all/CMake/3.23.1-GCCcore-11.3.0/bin/cmake -E cmake_link_script CMakeFiles/PMC.dir/link.txt --verbose=1
+/apps/all/intel-compilers/2021.4.0/compiler/2021.4.0/linux/bin/intel64/icpc -O3 -xHost -qopt-zmm-usage=high -g -qopenmp-simd  -qopenmp CMakeFiles/PMC.dir/common/base_mesh_builder.cpp.o CMakeFiles/PMC.dir/common/parametric_scalar_field.cpp.o CMakeFiles/PMC.dir/common/ref_mesh_builder.cpp.o CMakeFiles/PMC.dir/parallel_builder/loop_mesh_builder.cpp.o CMakeFiles/PMC.dir/parallel_builder/tree_mesh_builder.cpp.o CMakeFiles/PMC.dir/main.cpp.o -o PMC  /apps/all/imkl/2021.4.0/compiler/2021.4.0/linux/compiler/lib/intel64_lin/libiomp5.so /lib64/libpthread.so 
+make[2]: Leaving directory '/home/xzbori20/avs/proj2/build_vtune'
+[100%] Built target PMC
+make[1]: Leaving directory '/home/xzbori20/avs/proj2/build_vtune'
+/apps/all/CMake/3.23.1-GCCcore-11.3.0/bin/cmake -E cmake_progress_start /home/xzbori20/avs/proj2/build_vtune/CMakeFiles 0
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Reference
+Input Field File:    ../data/bun_zipper_res3.pts
+Output Mesh File:    
+Grid Size:           128
+Iso Level:           0.15
+Field Elements:      1889
+============================= Building the Mesh ===============================
+Number of Threads:   18
+Elapsed Time:        23469 ms
+Mesh Triangle Count: 163220
+Elapsed Time: 23.491s
+    Paused Time: 0s
+Effective CPU Utilization: 2.8% (0.998 out of 36 logical CPUs)
+ | The metric value is low, which may signal a poor logical CPU cores
+ | utilization caused by load imbalance, threading runtime overhead, contended
+ | synchronization, or thread/process underutilization. Explore sub-metrics to
+ | estimate the efficiency of MPI and OpenMP parallelism or run the Locks and
+ | Waits analysis to identify parallel bottlenecks for other parallel runtimes.
+ |
+    Total Thread Count: 1
+     | The number of threads in the application is significantly lower than the
+     | number of logical cores on the machine. Check if it is resulted by thread
+     | number hard coding that limits application scalability.
+     |
+        Thread Oversubscription: 0s (0.0% of CPU Time)
+    Wait Time with poor CPU Utilization: 0.000s (100.0% of Wait Time)
+
+        Top Waiting Objects
+        Sync Object                                                    Wait Time with poor CPU Utilization  (% from Object Wait Time)(%)  Wait Count
+        -------------------------------------------------------------  -----------------------------------  ----------------------------  ----------
+        Stream ../data/bun_zipper_res3.pts 0x3a99b117                                               0.000s                        100.0%           1
+        Stream /proc/cpuinfo 0x5f78cffb                                                             0.000s                        100.0%           2
+        Stream 0xd1a3d783                                                                           0.000s                        100.0%           1
+        Stream /sys/kernel/mm/transparent_hugepage/enabled 0x82f96033                               0.000s                        100.0%           1
+        Stream /proc/sys/vm/nr_hugepages 0x46ab9205                                                 0.000s                        100.0%           1
+        Stream /proc/meminfo 0x5df5c441                                                             0.000s                        100.0%           1
+    Spin and Overhead Time: 0.010s (0.0% of CPU Time)
+
+        Top Functions with Spin or Overhead Time
+        Function              Module       Spin and Overhead Time  (% from CPU Time)(%)
+        --------------------  -----------  ----------------------  --------------------
+        ompc_set_num_threads  libiomp5.so                  0.010s                  0.0%
+Collection and Platform Info
+    Application Command Line: ./PMC "--builder" "ref" "-t" "18" "--grid" "128" "../data/bun_zipper_res3.pts" 
+    Operating System: 4.18.0-305.25.1.el8_4.x86_64 Red Hat Enterprise Linux release 8.4 (Ootpa)
+    Computer Name: cn7.barbora.it4i.cz
+    Result Size: 4.2 MB 
+    Collection start time: 10:22:38 30/11/2022 UTC
+    Collection stop time: 10:23:02 30/11/2022 UTC
+    Collector Type: User-mode sampling and tracing
+    CPU
+        Name: Intel(R) Xeon(R) Processor code named Cascadelake
+        Frequency
+        Logical CPU Count: 36
+        Cache Allocation Technology
+            Level 2 capability: not detected
+            Level 3 capability: available
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        OpenMP Loop
+Input Field File:    ../data/bun_zipper_res3.pts
+Output Mesh File:    
+Grid Size:           128
+Iso Level:           0.15
+Field Elements:      1889
+============================= Building the Mesh ===============================
+Number of Threads:   18
+Elapsed Time:        2620 ms
+Mesh Triangle Count: 163220
+Elapsed Time: 2.641s
+    Paused Time: 0s
+Effective CPU Utilization: 24.7% (8.878 out of 36 logical CPUs)
+ | The metric value is low, which may signal a poor logical CPU cores
+ | utilization caused by load imbalance, threading runtime overhead, contended
+ | synchronization, or thread/process underutilization. Explore sub-metrics to
+ | estimate the efficiency of MPI and OpenMP parallelism or run the Locks and
+ | Waits analysis to identify parallel bottlenecks for other parallel runtimes.
+ |
+    OpenMP Analysis. Collection Time: 2.641
+        Serial Time (outside parallel regions): 0.024s (0.9%)
+
+            Top Serial Hotspots (outside parallel regions)
+            Function              Module       Serial CPU Time
+            --------------------  -----------  ---------------
+            ompc_set_num_threads  libiomp5.so           0.010s
+        Parallel Region Time: 2.617s (99.1%)
+            Estimated Ideal Time: 2.615s (99.0%)
+            OpenMP Potential Gain: 0.002s (0.1%)
+    Total Thread Count: 9
+     | The number of threads in the application is significantly lower than the
+     | number of logical cores on the machine. Check if it is resulted by thread
+     | number hard coding that limits application scalability.
+     |
+        Thread Oversubscription: 0s (0.0% of CPU Time)
+    Wait Time with poor CPU Utilization: 0.001s (100.0% of Wait Time)
+
+        Top Waiting Objects
+        Sync Object                                                    Wait Time with poor CPU Utilization  (% from Object Wait Time)(%)  Wait Count
+        -------------------------------------------------------------  -----------------------------------  ----------------------------  ----------
+        Condition Variable 0x01b7415e                                                               0.001s                        100.0%           1
+        Stream /proc/cpuinfo 0x5f78cffb                                                             0.000s                        100.0%           2
+        Stream ../data/bun_zipper_res3.pts 0x3a99b117                                               0.000s                        100.0%           1
+        Stream /sys/kernel/mm/transparent_hugepage/enabled 0x82f96033                               0.000s                        100.0%           1
+        Stream /proc/sys/vm/nr_hugepages 0x46ab9205                                                 0.000s                        100.0%           1
+        Stream /proc/meminfo 0x5df5c441                                                             0.000s                        100.0%           1
+    Spin and Overhead Time: 0.060s (0.3% of CPU Time)
+
+        Top Functions with Spin or Overhead Time
+        Function                   Module       Spin and Overhead Time  (% from CPU Time)(%)
+        -------------------------  -----------  ----------------------  --------------------
+        __kmpc_critical_with_hint  libiomp5.so                  0.030s                  0.1%
+        ompc_set_num_threads       libiomp5.so                  0.010s                  0.0%
+        __kmp_fork_barrier         libiomp5.so                  0.010s                  0.0%
+        [OpenMP dispatcher]        libiomp5.so                  0.010s                  0.0%
+Collection and Platform Info
+    Application Command Line: ./PMC "--builder" "loop" "-t" "18" "--grid" "128" "../data/bun_zipper_res3.pts" 
+    Operating System: 4.18.0-305.25.1.el8_4.x86_64 Red Hat Enterprise Linux release 8.4 (Ootpa)
+    Computer Name: cn7.barbora.it4i.cz
+    Result Size: 4.5 MB 
+    Collection start time: 10:23:07 30/11/2022 UTC
+    Collection stop time: 10:23:10 30/11/2022 UTC
+    Collector Type: User-mode sampling and tracing
+    CPU
+        Name: Intel(R) Xeon(R) Processor code named Cascadelake
+        Frequency
+        Logical CPU Count: 36
+        Cache Allocation Technology
+            Level 2 capability: not detected
+            Level 3 capability: available
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/bun_zipper_res3.pts
+Output Mesh File:    
+Grid Size:           128
+Iso Level:           0.15
+Field Elements:      1889
+============================= Building the Mesh ===============================
+Number of Threads:   18
+Elapsed Time:        487 ms
+Mesh Triangle Count: 163220
+Elapsed Time: 0.510s
+    Paused Time: 0s
+Effective CPU Utilization: 39.9% (14.351 out of 36 logical CPUs)
+ | The metric value is low, which may signal a poor logical CPU cores
+ | utilization caused by load imbalance, threading runtime overhead, contended
+ | synchronization, or thread/process underutilization. Explore sub-metrics to
+ | estimate the efficiency of MPI and OpenMP parallelism or run the Locks and
+ | Waits analysis to identify parallel bottlenecks for other parallel runtimes.
+ |
+    OpenMP Analysis. Collection Time: 0.510
+        Serial Time (outside parallel regions): 0.029s (5.8%)
+
+            Top Serial Hotspots (outside parallel regions)
+            Function              Module       Serial CPU Time
+            --------------------  -----------  ---------------
+            ompc_set_num_threads  libiomp5.so           0.010s
+        Parallel Region Time: 0.481s (94.2%)
+            Estimated Ideal Time: 0.458s (89.8%)
+            OpenMP Potential Gain: 0.022s (4.4%)
+    Total Thread Count: 18
+     | The number of threads in the application is significantly lower than the
+     | number of logical cores on the machine. Check if it is resulted by thread
+     | number hard coding that limits application scalability.
+     |
+        Thread Oversubscription: 0s (0.0% of CPU Time)
+    Wait Time with poor CPU Utilization: 0.023s (100.0% of Wait Time)
+
+        Top Waiting Objects
+        Sync Object                                    Wait Time with poor CPU Utilization  (% from Object Wait Time)(%)  Wait Count
+        ---------------------------------------------  -----------------------------------  ----------------------------  ----------
+        Condition Variable 0x01b7415e                                               0.022s                        100.0%          16
+        Stream ../data/bun_zipper_res3.pts 0x3a99b117                               0.000s                        100.0%           1
+        Condition Variable 0x4a4555a8                                               0.000s                        100.0%           3
+        Stream /proc/cpuinfo 0x5f78cffb                                             0.000s                        100.0%           1
+        Stream /proc/sys/vm/nr_hugepages 0x46ab9205                                 0.000s                        100.0%           1
+        [Others]                                                                    0.000s                        100.0%           2
+    Spin and Overhead Time: 1.320s (15.3% of CPU Time)
+
+        Top Functions with Spin or Overhead Time
+        Function                   Module       Spin and Overhead Time  (% from CPU Time)(%)
+        -------------------------  -----------  ----------------------  --------------------
+        __kmpc_critical_with_hint  libiomp5.so                  0.600s                  7.0%
+        __kmpc_omp_taskwait        libiomp5.so                  0.390s                  4.5%
+        __kmpc_end_critical        libiomp5.so                  0.160s                  1.9%
+        __kmp_fork_barrier         libiomp5.so                  0.050s                  0.6%
+        __kmpc_omp_task_alloc      libiomp5.so                  0.040s                  0.5%
+        [Others]                   N/A                          0.080s                  0.9%
+Collection and Platform Info
+    Application Command Line: ./PMC "--builder" "tree" "-t" "18" "--grid" "128" "../data/bun_zipper_res3.pts" 
+    Operating System: 4.18.0-305.25.1.el8_4.x86_64 Red Hat Enterprise Linux release 8.4 (Ootpa)
+    Computer Name: cn7.barbora.it4i.cz
+    Result Size: 4.5 MB 
+    Collection start time: 10:23:16 30/11/2022 UTC
+    Collection stop time: 10:23:17 30/11/2022 UTC
+    Collector Type: User-mode sampling and tracing
+    CPU
+        Name: Intel(R) Xeon(R) Processor code named Cascadelake
+        Frequency
+        Logical CPU Count: 36
+        Cache Allocation Technology
+            Level 2 capability: not detected
+            Level 3 capability: available
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Reference
+Input Field File:    ../data/bun_zipper_res3.pts
+Output Mesh File:    
+Grid Size:           128
+Iso Level:           0.15
+Field Elements:      1889
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        23486 ms
+Mesh Triangle Count: 163220
+Elapsed Time: 23.503s
+    Paused Time: 0s
+Effective CPU Utilization: 2.8% (0.998 out of 36 logical CPUs)
+ | The metric value is low, which may signal a poor logical CPU cores
+ | utilization caused by load imbalance, threading runtime overhead, contended
+ | synchronization, or thread/process underutilization. Explore sub-metrics to
+ | estimate the efficiency of MPI and OpenMP parallelism or run the Locks and
+ | Waits analysis to identify parallel bottlenecks for other parallel runtimes.
+ |
+    Total Thread Count: 1
+     | The number of threads in the application is significantly lower than the
+     | number of logical cores on the machine. Check if it is resulted by thread
+     | number hard coding that limits application scalability.
+     |
+        Thread Oversubscription: 0s (0.0% of CPU Time)
+    Wait Time with poor CPU Utilization: 0.000s (100.0% of Wait Time)
+
+        Top Waiting Objects
+        Sync Object                                                    Wait Time with poor CPU Utilization  (% from Object Wait Time)(%)  Wait Count
+        -------------------------------------------------------------  -----------------------------------  ----------------------------  ----------
+        Stream /proc/cpuinfo 0x5f78cffb                                                             0.000s                        100.0%           1
+        Stream ../data/bun_zipper_res3.pts 0x3a99b117                                               0.000s                        100.0%           1
+        Stream /sys/kernel/mm/transparent_hugepage/enabled 0x82f96033                               0.000s                        100.0%           1
+        Stream /proc/sys/vm/nr_hugepages 0x46ab9205                                                 0.000s                        100.0%           1
+        Stream /proc/meminfo 0x5df5c441                                                             0.000s                        100.0%           1
+    Spin and Overhead Time: 0.010s (0.0% of CPU Time)
+
+        Top Functions with Spin or Overhead Time
+        Function              Module       Spin and Overhead Time  (% from CPU Time)(%)
+        --------------------  -----------  ----------------------  --------------------
+        ompc_set_num_threads  libiomp5.so                  0.010s                  0.0%
+Collection and Platform Info
+    Application Command Line: ./PMC "--builder" "ref" "-t" "36" "--grid" "128" "../data/bun_zipper_res3.pts" 
+    Operating System: 4.18.0-305.25.1.el8_4.x86_64 Red Hat Enterprise Linux release 8.4 (Ootpa)
+    Computer Name: cn7.barbora.it4i.cz
+    Result Size: 4.2 MB 
+    Collection start time: 10:23:22 30/11/2022 UTC
+    Collection stop time: 10:23:46 30/11/2022 UTC
+    Collector Type: User-mode sampling and tracing
+    CPU
+        Name: Intel(R) Xeon(R) Processor code named Cascadelake
+        Frequency
+        Logical CPU Count: 36
+        Cache Allocation Technology
+            Level 2 capability: not detected
+            Level 3 capability: available
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        OpenMP Loop
+Input Field File:    ../data/bun_zipper_res3.pts
+Output Mesh File:    
+Grid Size:           128
+Iso Level:           0.15
+Field Elements:      1889
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        1318 ms
+Mesh Triangle Count: 163220
+Elapsed Time: 1.341s
+    Paused Time: 0s
+Effective CPU Utilization: 48.7% (17.530 out of 36 logical CPUs)
+ | The metric value is low, which may signal a poor logical CPU cores
+ | utilization caused by load imbalance, threading runtime overhead, contended
+ | synchronization, or thread/process underutilization. Explore sub-metrics to
+ | estimate the efficiency of MPI and OpenMP parallelism or run the Locks and
+ | Waits analysis to identify parallel bottlenecks for other parallel runtimes.
+ |
+    OpenMP Analysis. Collection Time: 1.341
+        Serial Time (outside parallel regions): 0.028s (2.1%)
+
+            Top Serial Hotspots (outside parallel regions)
+            Function              Module       Serial CPU Time
+            --------------------  -----------  ---------------
+            ompc_set_num_threads  libiomp5.so           0.010s
+        Parallel Region Time: 1.313s (97.9%)
+            Estimated Ideal Time: 1.312s (97.8%)
+            OpenMP Potential Gain: 0.001s (0.1%)
+    Total Thread Count: 18
+     | The number of threads in the application is significantly lower than the
+     | number of logical cores on the machine. Check if it is resulted by thread
+     | number hard coding that limits application scalability.
+     |
+        Thread Oversubscription: 0s (0.0% of CPU Time)
+    Wait Time with poor CPU Utilization: 0.006s (100.0% of Wait Time)
+
+        Top Waiting Objects
+        Sync Object                                                    Wait Time with poor CPU Utilization  (% from Object Wait Time)(%)  Wait Count
+        -------------------------------------------------------------  -----------------------------------  ----------------------------  ----------
+        Condition Variable 0x01b7415e                                                               0.006s                        100.0%           4
+        Stream /proc/cpuinfo 0x5f78cffb                                                             0.000s                        100.0%           1
+        Stream ../data/bun_zipper_res3.pts 0x3a99b117                                               0.000s                        100.0%           1
+        Stream /proc/meminfo 0x5df5c441                                                             0.000s                        100.0%           1
+        Stream /sys/kernel/mm/transparent_hugepage/enabled 0x82f96033                               0.000s                        100.0%           1
+        Stream /proc/sys/vm/nr_hugepages 0x46ab9205                                                 0.000s                        100.0%           1
+    Spin and Overhead Time: 0.100s (0.4% of CPU Time)
+
+        Top Functions with Spin or Overhead Time
+        Function                                                                                          Module       Spin and Overhead Time  (% from CPU Time)(%)
+        ------------------------------------------------------------------------------------------------  -----------  ----------------------  --------------------
+        __kmp_fork_barrier                                                                                libiomp5.so                  0.030s                  0.1%
+        __kmpc_end_critical                                                                               libiomp5.so                  0.020s                  0.1%
+        _INTERNALb3d86afe::__kmp_wait_template<kmp_flag_64<(bool)0, (bool)1>, (bool)1, (bool)0, (bool)1>  libiomp5.so                  0.020s                  0.1%
+        ompc_set_num_threads                                                                              libiomp5.so                  0.010s                  0.0%
+        __kmpc_critical_with_hint                                                                         libiomp5.so                  0.010s                  0.0%
+        __kmp_get_global_thread_id_reg                                                                    libiomp5.so                  0.010s                  0.0%
+Collection and Platform Info
+    Application Command Line: ./PMC "--builder" "loop" "-t" "36" "--grid" "128" "../data/bun_zipper_res3.pts" 
+    Operating System: 4.18.0-305.25.1.el8_4.x86_64 Red Hat Enterprise Linux release 8.4 (Ootpa)
+    Computer Name: cn7.barbora.it4i.cz
+    Result Size: 4.6 MB 
+    Collection start time: 10:23:51 30/11/2022 UTC
+    Collection stop time: 10:23:52 30/11/2022 UTC
+    Collector Type: User-mode sampling and tracing
+    CPU
+        Name: Intel(R) Xeon(R) Processor code named Cascadelake
+        Frequency
+        Logical CPU Count: 36
+        Cache Allocation Technology
+            Level 2 capability: not detected
+            Level 3 capability: available
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/bun_zipper_res3.pts
+Output Mesh File:    
+Grid Size:           128
+Iso Level:           0.15
+Field Elements:      1889
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        741 ms
+Mesh Triangle Count: 163220
+Elapsed Time: 0.771s
+    Paused Time: 0s
+Effective CPU Utilization: 26.6% (9.578 out of 36 logical CPUs)
+ | The metric value is low, which may signal a poor logical CPU cores
+ | utilization caused by load imbalance, threading runtime overhead, contended
+ | synchronization, or thread/process underutilization. Explore sub-metrics to
+ | estimate the efficiency of MPI and OpenMP parallelism or run the Locks and
+ | Waits analysis to identify parallel bottlenecks for other parallel runtimes.
+ |
+    OpenMP Analysis. Collection Time: 0.771
+        Serial Time (outside parallel regions): 0.048s (6.2%)
+
+            Top Serial Hotspots (outside parallel regions)
+            Function              Module       Serial CPU Time
+            --------------------  -----------  ---------------
+            ompc_set_num_threads  libiomp5.so           0.010s
+        Parallel Region Time: 0.723s (93.8%)
+            Estimated Ideal Time: 0.684s (88.8%)
+            OpenMP Potential Gain: 0.039s (5.0%)
+    Total Thread Count: 36
+        Thread Oversubscription: 0s (0.0% of CPU Time)
+    Wait Time with poor CPU Utilization: 0.188s (100.0% of Wait Time)
+
+        Top Waiting Objects
+        Sync Object                      Wait Time with poor CPU Utilization  (% from Object Wait Time)(%)  Wait Count
+        -------------------------------  -----------------------------------  ----------------------------  ----------
+        Condition Variable 0x01b7415e                                 0.184s                        100.0%          71
+        Condition Variable                                            0.003s                        100.0%           6
+        Mutex 0x9ff75373                                              0.001s                        100.0%           4
+        Condition Variable 0x4a4555a8                                 0.000s                        100.0%           5
+        Stream /proc/cpuinfo 0x5f78cffb                               0.000s                        100.0%           1
+        [Others]                                                      0.000s                        100.0%           4
+    Spin and Overhead Time: 18.670s (71.7% of CPU Time)
+     | A significant portion of CPU time is spent in synchronization or
+     | threading overhead. Consider increasing task granularity or the scope of
+     | data synchronization.
+     |
+
+        Top Functions with Spin or Overhead Time
+        Function                                       Module       Spin and Overhead Time  (% from CPU Time)(%)
+        ---------------------------------------------  -----------  ----------------------  --------------------
+        __kmpc_critical_with_hint                      libiomp5.so                 17.239s                 66.2%
+        __kmpc_omp_taskwait                            libiomp5.so                  0.450s                  1.7%
+        __kmpc_end_critical                            libiomp5.so                  0.400s                  1.5%
+        _INTERNALd4fd96d1::__kmp_task_finish<(bool)1>  libiomp5.so                  0.250s                  1.0%
+        _INTERNALdb99f3be::[OpenMP worker]             libiomp5.so                  0.121s                  0.5%
+        [Others]                                       N/A                          0.210s                  0.8%
+Collection and Platform Info
+    Application Command Line: ./PMC "--builder" "tree" "-t" "36" "--grid" "128" "../data/bun_zipper_res3.pts" 
+    Operating System: 4.18.0-305.25.1.el8_4.x86_64 Red Hat Enterprise Linux release 8.4 (Ootpa)
+    Computer Name: cn7.barbora.it4i.cz
+    Result Size: 5.3 MB 
+    Collection start time: 10:23:58 30/11/2022 UTC
+    Collection stop time: 10:23:59 30/11/2022 UTC
+    Collector Type: User-mode sampling and tracing
+    CPU
+        Name: Intel(R) Xeon(R) Processor code named Cascadelake
+        Frequency
+        Logical CPU Count: 36
+        Cache Allocation Technology
+            Level 2 capability: not detected
+            Level 3 capability: available
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.

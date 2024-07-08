@@ -1,0 +1,24 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+
+Begin optimization report for: BaseMandelCalculator::BaseMandelCalculator(BaseMandelCalculator *, unsigned int, unsigned int, const std::string &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /home/xzbori20/avs/proj1/calculators/BaseMandelCalculator.cc(14,23)
+   remark #15301: MATERIALIZED LOOP WAS VECTORIZED
+LOOP END
+===========================================================================
+
+Begin optimization report for: BaseMandelCalculator::BaseMandelCalculator(BaseMandelCalculator *const, unsigned int, unsigned int, const std::string &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /home/xzbori20/avs/proj1/calculators/BaseMandelCalculator.cc(14,23) inlined into /home/xzbori20/avs/proj1/calculators/BaseMandelCalculator.cc(14,23)
+   remark #15301: MATERIALIZED LOOP WAS VECTORIZED
+LOOP END
+===========================================================================

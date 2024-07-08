@@ -1,0 +1,3 @@
+61 [22374846121728] INFO mrtehelpers.mrteenv <> - Product libs directory: /apps/all/VTune/2022.2.0-intel-2021b/vtune/2022.2.0/lib64
+61 [22374846121728] INFO mrtehelpers.mrteenv <> - File mask: amplxe_samplingmrte_clrprof*
+77 [22374846121728] INFO mrtehelpers.mrteenv <> - File name: libamplxe_samplingmrte_clrprof_1.0.so

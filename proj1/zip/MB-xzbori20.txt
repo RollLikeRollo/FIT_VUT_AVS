@@ -1,0 +1,46 @@
+#### Stručně odpovězte na následující otázky: ######
+
+1. Proč je nutné určovat, zda má výpočet pokračovat?
+==============================================================================
+
+Kdybychom nechali výpočet pokračovat, tak se pro každé pole pole bude dál přepisovat 
+hodnota až k limitu. Nakonec bychom tak získali matici plnpu stejných čísel (== limit)
+
+
+2. Byla "Line" vektorizace efektivní? Proč?
+==============================================================================
+
+Ano. Dobu trvání výpočtu oproti referenčnímu řešení mnohonásobně snížila.
+Vektorized loop gain byl podle Advisoru 37.92x (100 %) oproti skalárnímu kódu.
+
+3. Jaká byla dosažena výkonnost v Intel Advisoru pro jednotlivé implementace 
+(v GFLOPS)?
+==============================================================================
+
+Ref - 0.964 GFLOPS
+Line - 18.853 GFLOPS   
+Batch - 20.999 GFLOPS
+
+
+4. Jaká část kódu byla vektorizována v "Line" implementaci? Vyčteme tuto 
+informaci i u batch kalkulátoru?
+==============================================================================
+
+V mojí implementaci "Line" byly vektorizované tři části:
+1. Nejvíc vnořená ýpočetní smyčka (kde se počítaly hodnoty množiny)
+2. Smyčka, která po vypočítaní řádku zkopírovala výsledky řádku do ukazatele finálních dat
+3. Smyčka, kteá nakonec uložila do finálních dat spodní polovinu matice
+
+Ano, stejné informace ukazaje Advisor i pro batch verzi. V této implementaci
+se vektroizují stejné smyčky
+
+
+5. Co vyčteme z Roofline modelu pro obě vektorizované implementace?
+==============================================================================
+
+Roofline model říká, že ani jedna implementace nedosáhneme limitu pro L2 cache,
+teoreticky by tedy mělo být možné najít lepší metodu výpočtu.
+Obecně roofline říká, kde je výkon a efektivita celého programu
+a vektorizoavných částí, kde je teoretický limit výkonnosti,
+jestli jsme omezeni pamětí nebo výpočetními prostředky.
+

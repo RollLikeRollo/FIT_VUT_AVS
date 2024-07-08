@@ -1,0 +1,17 @@
+-r
+/home/xzbori20/avs/proj1/build_advisor/Advisor-line/e000/trc000
+-quiet
+-cs-file
+/home/xzbori20/avs/proj1/build_advisor/Advisor-line/e000/callstacks.def
+--cs-mode=no-count-loops,no-count-flops,stl-profiling,stack-stitching
+--count-flops
+--benchmarks=dram,mcdram,cpu_cache,flop_peak,int
+--jit-profiling
+--gpu-carm
+--target-gpu=none
+--
+./mandelbrot
+-c
+line
+-s
+4096

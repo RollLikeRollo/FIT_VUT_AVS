@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2022/11/08 14:44:21</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>bandwidth-measurement-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>bandwidth-measurement-done</type>
+</msg>
+<msg id="4" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="5" tool="runtool">
+  <type>marker-file</type>
+  <arg>/home/xzbori20/avs/proj1/build_advisor/Advisor-batch/e000/trc000/trc000.advixe</arg>
+</msg>
+<msg id="6" tool="trc">
+  <type>PROCESS_START</type>
+  <arg>/home/xzbori20/avs/proj1/build_advisor/mandelbrot</arg>
+  <arg>3361313</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Nov  8 14:44:36 2022</timestamp>
+</msg>
+<msg id="7" tool="trc">
+  <type>PROCESS_ANALYSIS_MODE</type>
+  <arg>full</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Nov  8 14:44:36 2022</timestamp>
+</msg>
+<msg id="8" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/xzbori20/avs/proj1/build_advisor/mandelbrot</arg>
+  <arg>0x400000</arg>
+  <arg>0x48297f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Nov  8 14:44:36 2022</timestamp>
+</msg>
+<msg id="9" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/ld-linux-x86-64.so.2</arg>
+  <arg>0x146ec89de000</arg>
+  <arg>0x146ec8c0c1cf</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Nov  8 14:44:36 2022</timestamp>
+</msg>
+<msg id="10" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>[vdso]</arg>
+  <arg>0x146ec8c08000</arg>
+  <arg>0x146ec8c08f5c</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Nov  8 14:44:36 2022</timestamp>
+</msg>
+<msg id="11" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/apps/all/zlib/1.2.11-GCCcore-11.2.0/lib/libz.so.1</arg>
+  <arg>0x146eb189e000</arg>
+  <arg>0x146eb18b6168</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Nov  8 14:44:36 2022</timestamp>
+</msg>
+<msg id="12" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/apps/all/GCCcore/11.2.0/lib64/libstdc++.so.6</arg>
+  <arg>0x146eb1629000</arg>
+  <arg>0x146eb18541bf</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Nov  8 14:44:36 2022</timestamp>
+</msg>
+<msg id="13" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/libm.so.6</arg>
+  <arg>0x146eb1246000</arg>
+  <arg>0x146eb15c713f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Nov  8 14:44:36 2022</timestamp>
+</msg>
+<msg id="14" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/apps/all/GCCcore/11.2.0/lib64/libgcc_s.so.1</arg>
+  <arg>0x146eb122c000</arg>
+  <arg>0x146eb1245447</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Nov  8 14:44:36 2022</timestamp>
+</msg>
+<msg id="15" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/libc.so.6</arg>
+  <arg>0x146eb0e67000</arg>
+  <arg>0x146eb122b73f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Nov  8 14:44:36 2022</timestamp>
+</msg>
+<msg id="16" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/libdl.so.2</arg>
+  <arg>0x146eb0c63000</arg>
+  <arg>0x146eb0e6612f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Nov  8 14:44:36 2022</timestamp>
+</msg>
+<msg id="17" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/home/xzbori20/avs/proj1/build_advisor/mandelbrot</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Nov  8 14:44:41 2022</timestamp>
+</msg>
+<msg id="18" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/ld-linux-x86-64.so.2</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Nov  8 14:44:41 2022</timestamp>
+</msg>
+<msg id="19" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>[vdso]</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Nov  8 14:44:41 2022</timestamp>
+</msg>
+<msg id="20" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/apps/all/zlib/1.2.11-GCCcore-11.2.0/lib/libz.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Nov  8 14:44:41 2022</timestamp>
+</msg>
+<msg id="21" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/apps/all/GCCcore/11.2.0/lib64/libstdc++.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Nov  8 14:44:41 2022</timestamp>
+</msg>
+<msg id="22" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/libm.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Nov  8 14:44:41 2022</timestamp>
+</msg>
+<msg id="23" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/apps/all/GCCcore/11.2.0/lib64/libgcc_s.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Nov  8 14:44:41 2022</timestamp>
+</msg>
+<msg id="24" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/libc.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Nov  8 14:44:41 2022</timestamp>
+</msg>
+<msg id="25" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/libdl.so.2</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Nov  8 14:44:41 2022</timestamp>
+</msg>
+<msg id="26" tool="trc">
+  <type>PROCESS_FINISH</type>
+  <arg>/home/xzbori20/avs/proj1/build_advisor/mandelbrot</arg>
+  <arg>3361313</arg>
+  <arg>0x0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Nov  8 14:44:41 2022</timestamp>
+</msg>
+<msg id="27" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>0</arg>
+</msg>
+<msg id="28" tool="runtool">
+  <type>marker-file</type>
+  <arg>/home/xzbori20/avs/proj1/build_advisor/Advisor-batch/e000/trc000/trc000.advixe</arg>
+</msg>
+<msg id="29" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="30" tool="runtool">
+  <type>log-end</type>
+  <arg>2022/11/08 14:44:45</arg>
+</msg>
+
+</log>
+

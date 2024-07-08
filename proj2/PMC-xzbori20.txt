@@ -1,0 +1,156 @@
+Architektury Výpočetních Systémů (AVS 2022)
+Projekt č. 2 (PMC)
+Login: xzbori20
+
+Úloha 1: Paralelizace původního řešení
+===============================================================================
+
+1) Kterou ze smyček (viz zadání) je vhodnější paralelizovat a co způsobuje 
+   neefektivitu paralelizaci té druhé?
+
+   Je vhodnější paraleliyovat první smyčku
+    - tedy tu ve funkci LoopMeshBuilder::marchCubes()
+
+   Paralelizace druhé už nedává moc smysl, když je první
+      rozdělena mezi všechna nebo většinu vláken - pak nezbývají žádná vlákna
+      na rozdělení práce.
+   Navíc tím, že se efektivně druhá funkce volá z paralelní části první,
+      tak je vlastně taky paralelizovaná. 
+
+2) Jaké plánování (rozdělení práce mezi vlákna) jste zvolili a proč? 
+   Jaký vliv má velikost "chunk" při dynamickém plánování (8, 16, 32, 64)?
+
+   Zvolil jsem 'auto', protože v se v několika opakovaných testech
+      jevil jako nejrychlejší - ~3090 ms. Rozdíly v jednotlivých
+      rozdělení práce však byly zanedbatelné - nejhorší výsledky byly
+      maximálně o 20 ms pomalejší oproti nejrychlejším.
+
+   Chunk  8: ~3090 ms
+   Chunk 16: ~3092 ms
+   Chunk 32: ~3095 ms
+   Chunk 64: ~3096 ms
+
+   Měřil jsem po 5 pokusech na výpočetním uzlu s paramatry:
+      Mesh Builder:        OpenMP Loop
+      Input Field File:    ../data/bun_zipper_res1.pts
+      Output Mesh File:    bun_zipper_res1.obj
+      Grid Size:           64
+      Iso Level:           0.15
+      Field Elements:      35947
+
+
+3) Jakým způsobem zajišťujete ukládání trojúhelníků z několika vláken současně?
+
+   Pomocí pragmy OMP critical před řádkem
+      mTriangles.push_back(triangle);
+      ve funkci emitTriangle()
+
+
+Úloha 2: Paralelní průchod stromem
+===============================================================================
+
+1) Stručně popište použití OpenMP tasků ve vašem řešení.
+
+   V rekurzivní funkci recTree pro počítání stromu mám cyklus, který dělí
+      krychli na osm stejně velkých podkrychlí. Pro každou takto
+      vytvořenou menší krychli je rekurzivě volána fuknce recTree.
+      V tomto rozdělovacím cyklu jsem vytvořil tasky pro každé
+      z rekurzivních volání - každé z nich je tedy nový task.
+      Pro zpětné vycházení z rekurze je před příkazem return (funkce recTree)
+      pragma OMP taskwait, která čeká, až doběhnou všichni její potomci.
+
+2) Jaký vliv má na vaše řešení tzv. "cut-off"? Je vhodné vytvářet nový 
+   task pro každou krychli na nejnižší úrovni?
+
+   Pro svůj kód jsem nezjistil, že by cut off zrychlil jeho běh. Obecně však
+      může pomoct v případech, že by výpočet jedné větší krychle byl rychlejší 
+      než dělení na menší krychle a jejich výpočet.
+   I pro krychle na nejnižší úrovni je vhodné vytvořit tasky, aby
+      mohly i tyto výpočty probíhat paraleleně.
+
+
+3) Jakým způsobem zajišťujete ukládání trojúhelníků z několika vláken současně?
+
+   Pomocí pragmy OMP critical(triangle_push_back) před řádkem
+      mTriangles.push_back(triangle);
+      ve funkci emitTriangle()
+
+Úloha 3: Grafy škálování všech řešení
+===============================================================================
+
+1) Stručně zhodnoťte efektivitu vytvořených řešení (na základě grafů škálování).
+
+   Po vyhodnocení grafů můžu prohlásit, že moje řešení škaluje dobře až
+      do použití 2^5 jader. Potom režie synchronizace, kritických sekcí a
+      přepínání kontextu daleko převyšuje rychlost paralelního výpočtu. 
+      V tomto případě se tedy paralelizace nevyplatí.
+
+   V mém případě je lepší do 8 jader použít Octree a pro 16 a víc jader 
+      použít Loop.
+
+2) V jakém případě (v závislosti na počtu bodů ve vstupním souboru a velikosti 
+   mřížky) bude vaše řešení 1. úlohy neefektivní? (pokud takový případ existuje)
+
+   Ve všech případech je řešení Loop efektivní. S přibývajícím počtem jader
+      dokonce předbíhá řešení Octree. Pouze při použití jendoho nebo dvou jader
+      není zřetelné zlepšení pro Loop. 
+
+   V závislosti na velikosti vstupu jsem nenašel případ, kdy by byl přístup
+    Loop zcela neefektivní.
+
+
+3) Je (nebo není) stromový algoritmus efektivnější z pohledu slabého škálování 
+   vzhledem ke vstupu?
+
+   V tomto případě je škálování stromového algoritmu efektivnější pro větší velikost
+      vstupu na jedno jádro.
+
+4) Jaký je rozdíle mezi silným a slabým škálováním?
+
+   Silné škálování se popisuje Amdahlovým zákonem. To znamená, že
+            zrychlení = 1 / (s + p / N),
+      kde s = sekvenční část výpočtu , p = paralelní část výpočtu 
+      a N = počet jader.
+
+   Slabé škálovaní vyjadřuje Gustafssonův zákon ve tvaru
+            zrychlení = s + p × N
+
+   Tedy silné škálování počítá s neměnnou velikostí úlohy, zatímco 
+      slabé škálování počítá s proměnnou délkou úlohy - pokud má
+      prográmátor k dispozici více výkonný stroj, zvyšuje velikost/obtížnost
+      problému.
+
+
+Úloha 4: Analýza využití jader pomocí VTune
+================================================================================
+
+1) Jaké bylo průměrné využití jader pro všechny tři implementace s omezením na 
+   18 vláken? Na kolik procent byly využity?
+   
+   ref:      2,8 %,  0,998/36       =     5,5 %,  0,998/18
+   loop:    48,5 %, 17,477/36       =    97,1 %, 17,477/18 
+   tree:    39,9 %, 14,351/36       =    79,7 %, 14,351/18
+
+
+2) Jaké bylo průměrné využití jader pro všechny tři implementace s využitím 
+   všech jader? Na kolik procent se podařilo využít obě CPU?
+   
+   ref:      2,8 %,  0,998/36
+   loop:    90,0 %, 32,397/36
+   tree:    26,6 %,  9,578/36 - histogram ve Vtune říká, že hlavní část
+                                 výpočtu se nachází v OK zóně. Průměr
+                                 je stlačen dolů díky čekání na 
+                                 kritickou sekci (spin a overhead time)
+                                 - celkem 18 sekund (součet pro všechna jádra)
+
+3) Jaké jsou závěry z těchto měření?
+
+   Z měření zjišťuju, že řešení loop lépe využívá vláknový paralelismus.
+   Řešení tree funguje dobře při použití 16 jader, při použití 36
+   začníná trávit mnoho času čekáním (spin a overhead time). Tedy
+   program vynakládá mnoho prostředků na synchronizaci a samotný výpočet
+   se zpomaluje. To je vidět i v grafech škláování.
+   Referenční zadání je pro oba případy stejné - v obou využívá jen jedno jádro.
+
+
+

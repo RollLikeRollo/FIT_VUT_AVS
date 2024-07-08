@@ -1,0 +1,3 @@
+/home/xzbori20/avs/proj1/build/CMakeFiles/mandelbrot.dir
+/home/xzbori20/avs/proj1/build/CMakeFiles/edit_cache.dir
+/home/xzbori20/avs/proj1/build/CMakeFiles/rebuild_cache.dir

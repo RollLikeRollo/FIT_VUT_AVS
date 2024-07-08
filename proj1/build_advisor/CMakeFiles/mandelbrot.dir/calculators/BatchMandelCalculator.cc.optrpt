@@ -1,0 +1,176 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+
+Begin optimization report for: BatchMandelCalculator::calculateMandelbrot(BatchMandelCalculator *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7) inlined into /home/xzbori20/avs/proj1/calculators/BatchMandelCalculator.cc(44,2)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7) inlined into /home/xzbori20/avs/proj1/calculators/BatchMandelCalculator.cc(44,2)
+<Remainder loop for vectorization>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7) inlined into /home/xzbori20/avs/proj1/calculators/BatchMandelCalculator.cc(50,2)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7) inlined into /home/xzbori20/avs/proj1/calculators/BatchMandelCalculator.cc(50,2)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7) inlined into /home/xzbori20/avs/proj1/calculators/BatchMandelCalculator.cc(50,2)
+   <Remainder loop for vectorization>
+      remark #15301: REMAINDER LOOP WAS VECTORIZED
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7) inlined into /home/xzbori20/avs/proj1/calculators/BatchMandelCalculator.cc(51,2)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7) inlined into /home/xzbori20/avs/proj1/calculators/BatchMandelCalculator.cc(51,2)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7) inlined into /home/xzbori20/avs/proj1/calculators/BatchMandelCalculator.cc(51,2)
+   <Remainder loop for vectorization>
+      remark #15301: REMAINDER LOOP WAS VECTORIZED
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7) inlined into /home/xzbori20/avs/proj1/calculators/BatchMandelCalculator.cc(53,2)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7) inlined into /home/xzbori20/avs/proj1/calculators/BatchMandelCalculator.cc(53,2)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7) inlined into /home/xzbori20/avs/proj1/calculators/BatchMandelCalculator.cc(53,2)
+   <Remainder loop for vectorization>
+      remark #15301: REMAINDER LOOP WAS VECTORIZED
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /home/xzbori20/avs/proj1/calculators/BatchMandelCalculator.cc(56,2)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7) inlined into /home/xzbori20/avs/proj1/calculators/BatchMandelCalculator.cc(59,3)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7) inlined into /home/xzbori20/avs/proj1/calculators/BatchMandelCalculator.cc(60,3)
+      remark #25460: No loop optimizations reported
+
+      LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7) inlined into /home/xzbori20/avs/proj1/calculators/BatchMandelCalculator.cc(60,3)
+         remark #15300: LOOP WAS VECTORIZED
+      LOOP END
+
+      LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7) inlined into /home/xzbori20/avs/proj1/calculators/BatchMandelCalculator.cc(60,3)
+      <Remainder loop for vectorization>
+         remark #15301: REMAINDER LOOP WAS VECTORIZED
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at /home/xzbori20/avs/proj1/calculators/BatchMandelCalculator.cc(65,3)
+      remark #25460: No loop optimizations reported
+
+      LOOP BEGIN at /home/xzbori20/avs/proj1/calculators/BatchMandelCalculator.cc(67,4)
+         remark #25460: No loop optimizations reported
+
+         LOOP BEGIN at /home/xzbori20/avs/proj1/calculators/BatchMandelCalculator.cc(70,5)
+            remark #15301: SIMD LOOP WAS VECTORIZED
+         LOOP END
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at /home/xzbori20/avs/proj1/calculators/BatchMandelCalculator.cc(102,3)
+      remark #15301: SIMD LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7) inlined into /home/xzbori20/avs/proj1/calculators/BatchMandelCalculator.cc(59,3)
+   <Remainder loop for vectorization>
+      remark #15301: REMAINDER LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at /home/xzbori20/avs/proj1/calculators/BatchMandelCalculator.cc(102,3)
+   <Remainder loop for vectorization>
+      remark #15301: REMAINDER LOOP WAS VECTORIZED
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /home/xzbori20/avs/proj1/calculators/BatchMandelCalculator.cc(110,2)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /home/xzbori20/avs/proj1/calculators/BatchMandelCalculator.cc(112,3)
+      remark #15301: SIMD LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at /home/xzbori20/avs/proj1/calculators/BatchMandelCalculator.cc(112,3)
+   <Remainder loop for vectorization>
+      remark #15301: REMAINDER LOOP WAS VECTORIZED
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__fill_a1<int *, int>(int *, int *, const int &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7)
+<Peeled loop for vectorization>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7)
+<Remainder loop for vectorization>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__fill_a1<float *, float>(float *, float *, const float &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7)
+<Peeled loop for vectorization>
+   remark #15301: PEEL LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7)
+<Remainder loop for vectorization>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__fill_a1<bool *, bool>(bool *, bool *, const bool &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7)
+<Peeled loop for vectorization>
+   remark #15301: PEEL LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7)
+<Remainder loop for vectorization>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+===========================================================================

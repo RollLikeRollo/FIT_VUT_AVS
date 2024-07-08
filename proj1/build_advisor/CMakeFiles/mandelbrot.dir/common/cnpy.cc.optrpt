@@ -1,0 +1,2302 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+
+Begin optimization report for: std::vector<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>>::_M_fill_assign(std::vector<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>> *, std::vector<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>>::size_type, const std::vector<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(911,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(268,4)
+<Multiversioned v1, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(911,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(268,4)
+<Remainder, Multiversioned v1, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(911,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(268,4)
+<Multiversioned v1, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(911,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(268,4)
+<Remainder, Multiversioned v1, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(911,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(268,4)
+<Multiversioned v2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(911,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(268,4)
+<Remainder, Multiversioned v2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(236,8) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(272,6)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(236,8) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(272,6)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(911,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(277,25)
+<Multiversioned v1, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(911,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(277,25)
+<Remainder, Multiversioned v1, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(911,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(277,25)
+<Multiversioned v1, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(911,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(277,25)
+<Remainder, Multiversioned v1, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(911,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(277,25)
+<Multiversioned v2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(911,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(277,25)
+<Remainder, Multiversioned v2>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>>::vector(std::vector<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>> *, std::vector<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>>::size_type, const std::vector<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>>::value_type &, const std::vector<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>>::allocator_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(236,8) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_vector.h(526,9)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(236,8) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_vector.h(526,9)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Function_handler<bool (char), std::remove_reference<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false> &>::type>::_M_manager(std::_Any_data &, const std::_Any_data &, std::_Manager_operation)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(413,12) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/std_function.h(284,6)
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<std::pair<char, char>, std::allocator<std::pair<char, char>>>::vector(std::vector<std::pair<char, char>, std::allocator<std::pair<char, char>>> *, const std::vector<std::pair<char, char>, std::allocator<std::pair<char, char>>> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(91,23) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_vector.h(559,4)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(91,23) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_vector.h(559,4)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_CharClassT, std::allocator<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_CharClassT>>::vector(std::vector<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_CharClassT, std::allocator<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_CharClassT>> *, const std::vector<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_CharClassT, std::allocator<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_CharClassT>> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(91,23) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_vector.h(559,4)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(91,23) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_vector.h(559,4)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Function_handler<bool (char), std::remove_reference<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, true> &>::type>::_M_manager(std::_Any_data &, const std::_Any_data &, std::_Manager_operation)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(413,12) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/std_function.h(284,6)
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Function_handler<bool (char), std::remove_reference<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, false> &>::type>::_M_manager(std::_Any_data &, const std::_Any_data &, std::_Manager_operation)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(413,12) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/std_function.h(284,6)
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Function_handler<bool (char), std::remove_reference<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, true> &>::type>::_M_manager(std::_Any_data &, const std::_Any_data &, std::_Manager_operation)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(413,12) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/std_function.h(284,6)
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__detail::_Scanner<std::__detail::_Compiler<std::__cxx11::regex_traits<char>>::_CharT>::_M_eat_escape_ecma(std::__detail::_Scanner<std::__detail::_Compiler<std::__cxx11::regex_traits<char>>::_CharT> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_scanner.h(118,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_scanner.tcc(319,20)
+   remark #25460: No loop optimizations reported
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__detail::_Scanner<std::__detail::_Compiler<std::__cxx11::regex_traits<char>>::_CharT>::_M_eat_escape_posix(std::__detail::_Scanner<std::__detail::_Compiler<std::__cxx11::regex_traits<char>>::_CharT> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_scanner.h(118,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_scanner.tcc(408,4)
+   remark #25460: No loop optimizations reported
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__detail::_Executor<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>, std::__cxx11::regex_traits<char>, true>::_M_lookahead(std::__detail::_Executor<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>, std::__cxx11::regex_traits<char>, true> *, std::__detail::_StateIdT)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(578,8) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(155,58)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(578,8) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(155,58)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(91,23) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(157,17)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(91,23) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(157,17)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(157,17)
+<Multiversioned v1, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(157,17)
+<Remainder, Multiversioned v1, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(157,17)
+<Multiversioned v1, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(157,17)
+<Remainder, Multiversioned v1, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(157,17)
+<Multiversioned v3, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(157,17)
+<Remainder, Multiversioned v3, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(157,17)
+<Multiversioned v3, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(157,17)
+<Remainder, Multiversioned v3, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(157,17)
+<Multiversioned v2, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(157,17)
+<Remainder, Multiversioned v2, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(157,17)
+<Multiversioned v2, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(157,17)
+<Remainder, Multiversioned v2, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(157,17)
+<Multiversioned v1, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(157,17)
+<Remainder, Multiversioned v1, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(157,17)
+<Multiversioned v1, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(157,17)
+<Remainder, Multiversioned v1, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(157,17)
+<Multiversioned v2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(157,17)
+<Remainder, Multiversioned v2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(91,8) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(157,17)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(91,8) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(157,17)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__detail::_Compiler<std::__cxx11::regex_traits<char>>::_Compiler(std::__detail::_Compiler<std::__cxx11::regex_traits<char>> *, std::__detail::_Compiler<std::__cxx11::regex_traits<char>>::_IterT, std::__detail::_Compiler<std::__cxx11::regex_traits<char>>::_IterT, const std::__cxx11::regex_traits<char>::locale_type &, std::__detail::_Compiler<std::__cxx11::regex_traits<char>>::_FlagT)
+
+    Report from: Code generation optimizations [cg]
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEEC1EPKcS6_RKSt6localeNSt15regex_constants18syntax_option_typeE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEEC1EPKcS6_RKSt6localeNSt15regex_constants18syntax_option_typeE:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEEC1EPKcS6_RKSt6localeNSt15regex_constants18syntax_option_typeE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEEC1EPKcS6_RKSt6localeNSt15regex_constants18syntax_option_typeE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEEC1EPKcS6_RKSt6localeNSt15regex_constants18syntax_option_typeE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEEC1EPKcS6_RKSt6localeNSt15regex_constants18syntax_option_typeE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEEC1EPKcS6_RKSt6localeNSt15regex_constants18syntax_option_typeE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEEC1EPKcS6_RKSt6localeNSt15regex_constants18syntax_option_typeE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEEC1EPKcS6_RKSt6localeNSt15regex_constants18syntax_option_typeE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEEC1EPKcS6_RKSt6localeNSt15regex_constants18syntax_option_typeE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEEC1EPKcS6_RKSt6localeNSt15regex_constants18syntax_option_typeE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEEC1EPKcS6_RKSt6localeNSt15regex_constants18syntax_option_typeE:  Assume directive not useful: removing
+
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_deque.h(151,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.tcc(67,5)
+   remark #15301: MATERIALIZED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_deque.h(151,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.tcc(67,5)
+   remark #15301: MATERIALIZED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_deque.h(661,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.tcc(67,5)
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_automaton.tcc(180,25) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.tcc(92,15)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_automaton.tcc(182,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.tcc(92,15)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_automaton.tcc(186,6) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.tcc(92,15)
+      remark #25460: No loop optimizations reported
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__detail::__regex_algo_impl<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>, char, std::__cxx11::regex_traits<char>, std::__detail::_RegexExecutorPolicy::_S_auto, false>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator, std::__cxx11::match_results<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>> &, const std::__cxx11::basic_regex<char, std::__cxx11::regex_traits<char>> &, std::regex_constants::match_flag_type)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(911,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex.tcc(62,11)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(911,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex.tcc(62,11)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(236,8) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex.tcc(62,11)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(236,8) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex.tcc(62,11)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(911,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex.tcc(62,11)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(911,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex.tcc(62,11)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(578,8) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex.tcc(79,38)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(578,8) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex.tcc(79,38)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex.tcc(86,22)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex.tcc(86,22)
+<Remainder loop for vectorization>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__detail::_Executor<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>, std::__cxx11::regex_traits<char>, false>::_M_main_dispatch(std::__detail::_Executor<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>, std::__cxx11::regex_traits<char>, false> *, std::__detail::_Executor<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>, std::__cxx11::regex_traits<char>, false>::_Match_mode, std::__detail::_Executor<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>, std::__cxx11::regex_traits<char>, false>::__bfs)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(126,4)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(126,4)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(126,4)
+   <Remainder loop for vectorization>
+      remark #15301: REMAINDER LOOP WAS VECTORIZED
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__detail::_Executor<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>, std::__cxx11::regex_traits<char>, false>::_M_dfs(std::__detail::_Executor<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>, std::__cxx11::regex_traits<char>, false> *, std::__detail::_Executor<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>, std::__cxx11::regex_traits<char>, false>::_Match_mode, std::__detail::_StateIdT)
+
+    Report from: Code generation optimizations [cg]
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(224:3)::_ZNSt8__detail9_ExecutorIN9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEESaINS5_9sub_matchISB_EEENS5_12regex_traitsIcEELb0EE6_M_dfsENSH_11_Match_modeEl:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(328:8)::_ZNSt8__detail9_ExecutorIN9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEESaINS5_9sub_matchISB_EEENS5_12regex_traitsIcEELb0EE6_M_dfsENSH_11_Match_modeEl:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(329:8)::_ZNSt8__detail9_ExecutorIN9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEESaINS5_9sub_matchISB_EEENS5_12regex_traitsIcEELb0EE6_M_dfsENSH_11_Match_modeEl:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(330:8)::_ZNSt8__detail9_ExecutorIN9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEESaINS5_9sub_matchISB_EEENS5_12regex_traitsIcEELb0EE6_M_dfsENSH_11_Match_modeEl:  Assume directive not useful: removing
+
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(91,23) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(534,4)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(91,23) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(534,4)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(534,4)
+<Multiversioned v1, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(534,4)
+<Remainder, Multiversioned v1, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(534,4)
+<Multiversioned v1, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(534,4)
+<Remainder, Multiversioned v1, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(534,4)
+<Multiversioned v3, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(534,4)
+<Remainder, Multiversioned v3, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(534,4)
+<Multiversioned v3, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(534,4)
+<Remainder, Multiversioned v3, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(534,4)
+<Multiversioned v2, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(534,4)
+<Remainder, Multiversioned v2, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(534,4)
+<Multiversioned v2, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(534,4)
+<Remainder, Multiversioned v2, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(534,4)
+<Multiversioned v1, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(534,4)
+<Remainder, Multiversioned v1, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(534,4)
+<Multiversioned v1, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(534,4)
+<Remainder, Multiversioned v1, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(534,4)
+<Multiversioned v2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(534,4)
+<Remainder, Multiversioned v2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(91,8) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(534,4)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(91,8) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(534,4)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__detail::_Executor<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>, std::__cxx11::regex_traits<char>, false>::_M_lookahead(std::__detail::_Executor<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>, std::__cxx11::regex_traits<char>, false> *, std::__detail::_StateIdT)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(578,8) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(155,58)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(578,8) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(155,58)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>>::vector(std::vector<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>> *, const std::vector<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(91,23) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_vector.h(559,4)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(91,23) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_vector.h(559,4)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>>::operator=(std::vector<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>> *, const std::vector<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(91,23) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(227,24)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(91,23) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(227,24)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(239,56)
+<Multiversioned v1, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(239,56)
+<Remainder, Multiversioned v1, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(239,56)
+<Multiversioned v1, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(239,56)
+<Remainder, Multiversioned v1, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(239,56)
+<Multiversioned v3, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(239,56)
+<Remainder, Multiversioned v3, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(239,56)
+<Multiversioned v3, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(239,56)
+<Remainder, Multiversioned v3, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(239,56)
+<Multiversioned v2, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(239,56)
+<Remainder, Multiversioned v2, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(239,56)
+<Multiversioned v2, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(239,56)
+<Remainder, Multiversioned v2, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(244,8)
+<Multiversioned v1, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(244,8)
+<Remainder, Multiversioned v1, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(244,8)
+<Multiversioned v1, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(244,8)
+<Remainder, Multiversioned v1, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(244,8)
+<Multiversioned v2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(383,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(244,8)
+<Remainder, Multiversioned v2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(91,8) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(246,8)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(91,8) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(246,8)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__detail::_Executor<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>, std::__cxx11::regex_traits<char>, true>::_M_dfs(std::__detail::_Executor<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>, std::__cxx11::regex_traits<char>, true> *, std::__detail::_Executor<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>, std::__cxx11::regex_traits<char>, true>::_Match_mode, std::__detail::_StateIdT)
+
+    Report from: Code generation optimizations [cg]
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(233:5)::_ZNSt8__detail9_ExecutorIN9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEESaINS5_9sub_matchISB_EEENS5_12regex_traitsIcEELb1EE6_M_dfsENSH_11_Match_modeEl:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(238:7)::_ZNSt8__detail9_ExecutorIN9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEESaINS5_9sub_matchISB_EEENS5_12regex_traitsIcEELb1EE6_M_dfsENSH_11_Match_modeEl:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(335:14)::_ZNSt8__detail9_ExecutorIN9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEESaINS5_9sub_matchISB_EEENS5_12regex_traitsIcEELb1EE6_M_dfsENSH_11_Match_modeEl:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.tcc(466:21)::_ZNSt8__detail9_ExecutorIN9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEESaINS5_9sub_matchISB_EEENS5_12regex_traitsIcEELb1EE6_M_dfsENSH_11_Match_modeEl:  Assume directive not useful: removing
+
+===========================================================================
+
+Begin optimization report for: std::__detail::_Executor<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>, std::__cxx11::regex_traits<char>, false>::_Executor(std::__detail::_Executor<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>, std::__cxx11::regex_traits<char>, false> *, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator, std::__detail::_Executor<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>, std::__cxx11::regex_traits<char>, false>::_ResultsVec &, const std::__detail::_Executor<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>, std::__cxx11::regex_traits<char>, false>::_RegexT &, std::__detail::_Executor<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>, std::__cxx11::regex_traits<char>, false>::_FlagT)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(578,8) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.h(70,7)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(578,8) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_executor.h(70,7)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__fill_a1<std::_Vector_base<size_t, std::allocator<size_t>>::pointer, std::iterator_traits<std::_Vector_base<size_t, std::allocator<size_t>>::pointer>::value_type>(std::_Vector_base<size_t, std::allocator<size_t>>::pointer, std::_Vector_base<size_t, std::allocator<size_t>>::pointer, const std::iterator_traits<std::_Vector_base<size_t, std::allocator<size_t>>::pointer>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7)
+<Peeled loop for vectorization>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7)
+<Remainder loop for vectorization>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__fill_a1<std::vector<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>>::pointer, std::vector<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>>::value_type>(std::vector<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>>::pointer, std::vector<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>>::pointer, const std::vector<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>, std::allocator<std::__cxx11::sub_match<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::const_iterator>>>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(911,7)
+<Multiversioned v1, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(911,7)
+<Remainder, Multiversioned v1, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(911,7)
+<Multiversioned v1, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(911,7)
+<Remainder, Multiversioned v1, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(911,7)
+<Multiversioned v2, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(911,7)
+<Remainder, Multiversioned v2, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(911,7)
+<Multiversioned v2, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(911,7)
+<Remainder, Multiversioned v2, Distributed chunk2>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__fill_a1<std::unique_ptr<bool [], std::default_delete<bool []>>::pointer, bool>(std::unique_ptr<bool [], std::default_delete<bool []>>::pointer, std::unique_ptr<bool [], std::default_delete<bool []>>::pointer, const bool &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7)
+<Peeled loop for vectorization>
+   remark #15301: PEEL LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algobase.h(923,7)
+<Remainder loop for vectorization>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+===========================================================================
+
+Begin optimization report for: load_the_npz_array(cnpy::NpyArray *, FILE *, uint32_t, uint32_t)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /home/xzbori20/avs/proj1/common/cnpy.h(31,40) inlined into /home/xzbori20/avs/proj1/common/cnpy.cc(224,44)
+   remark #25460: No loop optimizations reported
+LOOP END
+===========================================================================
+
+Begin optimization report for: cnpy::parse_npy_header(unsigned char *, size_t &, std::vector<size_t, std::allocator<size_t>> &, bool &)
+
+    Report from: Code generation optimizations [cg]
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.tcc(211:51)::_ZN4cnpy16parse_npy_headerEPhRmRSt6vectorImSaImEERb:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(724:6)::_ZN4cnpy16parse_npy_headerEPhRmRSt6vectorImSaImEERb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(725:14)::_ZN4cnpy16parse_npy_headerEPhRmRSt6vectorImSaImEERb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(725:6)::_ZN4cnpy16parse_npy_headerEPhRmRSt6vectorImSaImEERb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(726:6)::_ZN4cnpy16parse_npy_headerEPhRmRSt6vectorImSaImEERb:  Assume directive not useful: removing
+
+===========================================================================
+
+Begin optimization report for: load_the_npy_file(cnpy::NpyArray *, FILE *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /home/xzbori20/avs/proj1/common/cnpy.h(31,40) inlined into /home/xzbori20/avs/proj1/common/cnpy.cc(186,42)
+   remark #25460: No loop optimizations reported
+LOOP END
+===========================================================================
+
+Begin optimization report for: cnpy::parse_npy_header(FILE *, size_t &, std::vector<size_t, std::allocator<size_t>> &, bool &)
+
+    Report from: Code generation optimizations [cg]
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.tcc(211:51)::_ZN4cnpy16parse_npy_headerEP8_IO_FILERmRSt6vectorImSaImEERb:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(724:6)::_ZN4cnpy16parse_npy_headerEP8_IO_FILERmRSt6vectorImSaImEERb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(725:14)::_ZN4cnpy16parse_npy_headerEP8_IO_FILERmRSt6vectorImSaImEERb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(725:6)::_ZN4cnpy16parse_npy_headerEP8_IO_FILERmRSt6vectorImSaImEERb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(726:6)::_ZN4cnpy16parse_npy_headerEP8_IO_FILERmRSt6vectorImSaImEERb:  Assume directive not useful: removing
+
+===========================================================================
+
+Begin optimization report for: cnpy::NpyArray::NpyArray(cnpy::NpyArray *, const std::vector<size_t, std::allocator<size_t>> &, size_t, bool)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /home/xzbori20/avs/proj1/common/cnpy.h(31,40)
+   remark #25460: No loop optimizations reported
+LOOP END
+===========================================================================
+
+Begin optimization report for: cnpy::npy_load(cnpy::NpyArray *, std::string *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /home/xzbori20/avs/proj1/common/cnpy.h(31,40) inlined into /home/xzbori20/avs/proj1/common/cnpy.cc(335,20)
+   remark #25460: No loop optimizations reported
+LOOP END
+===========================================================================
+
+Begin optimization report for: lambda [] type at line 130937, col. 21::operator()(const struct lambda [] type at line 130937, col. 21 *)->void
+
+    Report from: Code generation optimizations [cg]
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEvENKUlvE_clEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEvENKUlvE_clEv:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEvENKUlvE_clEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEvENKUlvE_clEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEvENKUlvE_clEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEvENKUlvE_clEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEvENKUlvE_clEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEvENKUlvE_clEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEvENKUlvE_clEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEvENKUlvE_clEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEvENKUlvE_clEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEvENKUlvE_clEv:  Assume directive not useful: removing
+
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_scanner.tcc(183,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.tcc(193,21)
+   remark #25460: No loop optimizations reported
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::map<std::__detail::_StateIdT, std::__detail::_StateIdT, std::less<std::__detail::_StateIdT>, std::allocator<std::pair<const std::__detail::_StateIdT, std::__detail::_StateIdT>>>::operator[](std::map<std::__detail::_StateIdT, std::__detail::_StateIdT, std::less<std::__detail::_StateIdT>, std::allocator<std::pair<const std::__detail::_StateIdT, std::__detail::_StateIdT>>> *, const std::map<std::__detail::_StateIdT, std::__detail::_StateIdT, std::less<std::__detail::_StateIdT>, std::allocator<std::pair<const std::__detail::_StateIdT, std::__detail::_StateIdT>>>::key_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_tree.h(1902,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_map.h(498,29)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_tree.h(2066,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_map.h(504,10)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_tree.h(2066,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_map.h(504,10)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_tree.h(2066,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_map.h(504,10)
+   remark #25460: No loop optimizations reported
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__detail::_Compiler<std::__cxx11::regex_traits<char>>::_M_quantifier(std::__detail::_Compiler<std::__cxx11::regex_traits<char>> *)
+
+    Report from: Code generation optimizations [cg]
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv:  Assume directive not useful: removing
+
+===========================================================================
+
+Begin optimization report for: std::__detail::_StateSeq<std::__cxx11::regex_traits<char>>::_M_clone(std::__detail::_StateSeq<std::__cxx11::regex_traits<char>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_automaton.tcc(200,7)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_tree.h(1918,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_automaton.tcc(211,10)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_tree.h(1918,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_automaton.tcc(216,15)
+      remark #25460: No loop optimizations reported
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_automaton.tcc(218,24)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_tree.h(1902,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_automaton.tcc(224,31)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_tree.h(1902,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_automaton.tcc(226,30)
+      remark #25460: No loop optimizations reported
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__detail::_Compiler<std::__cxx11::regex_traits<char>>::_M_atom(std::__detail::_Compiler<std::__cxx11::regex_traits<char>> *)
+
+    Report from: Code generation optimizations [cg]
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv:  Assume directive not useful: removing
+
+===========================================================================
+
+Begin optimization report for: std::__detail::_Compiler<std::__cxx11::regex_traits<char>>::_M_insert_character_class_matcher<false, false>(std::__detail::_Compiler<std::__cxx11::regex_traits<char>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(413,12) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.tcc(419,28)
+   remark #15301: MATERIALIZED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(413,12) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.tcc(419,28)
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_M_ready(std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/predefined_ops.h(45,25) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(502,2)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1884,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(502,2)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1887,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(502,2)
+      remark #25460: No loop optimizations reported
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1846,53) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(502,2)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1806,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(502,2)
+      remark #25460: No loop optimizations reported
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(930,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(503,48)
+   remark #25460: No loop optimizations reported
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__adjust_heap<std::vector<char, std::allocator<char>>::iterator, std::__iterator_traits<std::vector<char, std::allocator<char>>::iterator, std::__void_t<>>::difference_type, std::remove_reference<std::move_iterator<char *>::__base_ref>::type, __gnu_cxx::__ops::_Iter_less_iter>(std::vector<char, std::allocator<char>>::iterator, std::__iterator_traits<std::vector<char, std::allocator<char>>::iterator, std::__void_t<>>::difference_type, std::__iterator_traits<std::vector<char, std::allocator<char>>::iterator, std::__void_t<>>::difference_type, std::remove_reference<std::move_iterator<char *>::__base_ref>::type, __gnu_cxx::__ops::_Iter_less_iter)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_heap.h(228,7)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_heap.h(139,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_heap.h(247,7)
+   remark #25460: No loop optimizations reported
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__insertion_sort<std::vector<char, std::allocator<char>>::iterator, __gnu_cxx::__ops::_Iter_less_iter>(std::vector<char, std::allocator<char>>::iterator, std::vector<char, std::allocator<char>>::iterator, __gnu_cxx::__ops::_Iter_less_iter)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1824,57)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1806,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1835,6)
+      remark #25460: No loop optimizations reported
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__introsort_loop<std::vector<char, std::allocator<char>>::iterator, long, __gnu_cxx::__ops::_Iter_less_iter>(std::vector<char, std::allocator<char>>::iterator, std::vector<char, std::allocator<char>>::iterator, long, __gnu_cxx::__ops::_Iter_less_iter)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/predefined_ops.h(45,25) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1939,56)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1884,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1939,56)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1887,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1939,56)
+      remark #25460: No loop optimizations reported
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_heap.h(351,46) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1934,8)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_heap.h(228,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1934,8)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_heap.h(139,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1934,8)
+      remark #25460: No loop optimizations reported
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_heap.h(421,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1934,8)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_heap.h(228,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1934,8)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_heap.h(139,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1934,8)
+      remark #25460: No loop optimizations reported
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__detail::_Compiler<std::__cxx11::regex_traits<char>>::_M_insert_character_class_matcher<false, true>(std::__detail::_Compiler<std::__cxx11::regex_traits<char>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(413,12) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.tcc(419,28)
+   remark #15301: MATERIALIZED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(413,12) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.tcc(419,28)
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, true>::_M_ready(std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, true> *)
+
+    Report from: Code generation optimizations [cg]
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.tcc(211:51)::_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EE8_M_readyEv:  Assume directive not useful: removing
+
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/predefined_ops.h(45,25) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(502,2)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1884,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(502,2)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1887,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(502,2)
+      remark #25460: No loop optimizations reported
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1846,53) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(502,2)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1806,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(502,2)
+      remark #25460: No loop optimizations reported
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(930,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(503,48)
+   remark #25460: No loop optimizations reported
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__detail::_Compiler<std::__cxx11::regex_traits<char>>::_M_insert_character_class_matcher<true, false>(std::__detail::_Compiler<std::__cxx11::regex_traits<char>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(413,12) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.tcc(419,28)
+   remark #15301: MATERIALIZED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(413,12) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.tcc(419,28)
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, false>::_M_ready(std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, false> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/predefined_ops.h(45,25) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(502,2)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1884,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(502,2)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1887,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(502,2)
+      remark #25460: No loop optimizations reported
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1846,53) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(502,2)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1806,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(502,2)
+      remark #25460: No loop optimizations reported
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(930,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(503,48)
+   remark #25460: No loop optimizations reported
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__detail::_Compiler<std::__cxx11::regex_traits<char>>::_M_insert_character_class_matcher<true, true>(std::__detail::_Compiler<std::__cxx11::regex_traits<char>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(413,12) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.tcc(419,28)
+   remark #15301: MATERIALIZED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(413,12) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.tcc(419,28)
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, true>::_M_ready(std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, true> *)
+
+    Report from: Code generation optimizations [cg]
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(217:21)::_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EE8_M_readyEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.tcc(211:51)::_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EE8_M_readyEv:  Assume directive not useful: removing
+
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/predefined_ops.h(45,25) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(502,2)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1884,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(502,2)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1887,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(502,2)
+      remark #25460: No loop optimizations reported
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1846,53) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(502,2)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(1806,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(502,2)
+      remark #25460: No loop optimizations reported
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_algo.h(930,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(503,48)
+   remark #25460: No loop optimizations reported
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__detail::_Compiler<std::__cxx11::regex_traits<char>>::_M_insert_bracket_matcher<true, true>(std::__detail::_Compiler<std::__cxx11::regex_traits<char>> *, bool)
+
+    Report from: Code generation optimizations [cg]
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb1ELb1EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb1ELb1EEEvb:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb1ELb1EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb1ELb1EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb1ELb1EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb1ELb1EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb1ELb1EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb1ELb1EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb1ELb1EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb1ELb1EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb1ELb1EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb1ELb1EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(217:21)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb1ELb1EEEvb:  Assume directive not useful: removing
+
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(413,12) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.tcc(450,35)
+   remark #15301: MATERIALIZED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(413,12) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.tcc(450,35)
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_CharClassT, std::allocator<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_CharClassT>>::_M_realloc_insert<const std::vector<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_CharClassT, std::allocator<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_CharClassT>>::value_type &>(std::vector<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_CharClassT, std::allocator<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_CharClassT>> *, std::vector<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_CharClassT, std::allocator<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_CharClassT>>::iterator, const std::vector<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_CharClassT, std::allocator<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_CharClassT>>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(1031,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(462,23)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(1031,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(462,23)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(1031,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(467,23)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(1031,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(467,23)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, true>::_M_add_equivalence_class(std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, true> *, const std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, true>::_StringT &)
+
+    Report from: Code generation optimizations [cg]
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(724:6)::_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EE24_M_add_equivalence_classERKNS1_12basic_stringIcSt11char_traitsIcESaIcEEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(725:14)::_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EE24_M_add_equivalence_classERKNS1_12basic_stringIcSt11char_traitsIcESaIcEEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(725:6)::_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EE24_M_add_equivalence_classERKNS1_12basic_stringIcSt11char_traitsIcESaIcEEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(726:6)::_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EE24_M_add_equivalence_classERKNS1_12basic_stringIcSt11char_traitsIcESaIcEEE:  Assume directive not useful: removing
+
+===========================================================================
+
+Begin optimization report for: std::__detail::_Compiler<std::__cxx11::regex_traits<char>>::_M_try_char(std::__detail::_Compiler<std::__cxx11::regex_traits<char>> *)
+
+    Report from: Code generation optimizations [cg]
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv:  Assume directive not useful: removing
+
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_scanner.tcc(183,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.tcc(577,16)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_scanner.tcc(183,4) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.tcc(582,16)
+   remark #25460: No loop optimizations reported
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, true>::_M_make_range(std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, true> *, std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, true>::_CharT, std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, true>::_CharT)
+
+    Report from: Code generation optimizations [cg]
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.tcc(211:51)::_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EE13_M_make_rangeEcc:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+===========================================================================
+
+Begin optimization report for: std::__detail::_Compiler<std::__cxx11::regex_traits<char>>::_M_insert_bracket_matcher<true, false>(std::__detail::_Compiler<std::__cxx11::regex_traits<char>> *, bool)
+
+    Report from: Code generation optimizations [cg]
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb1ELb0EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb1ELb0EEEvb:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb1ELb0EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb1ELb0EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb1ELb0EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb1ELb0EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb1ELb0EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb1ELb0EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb1ELb0EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb1ELb0EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb1ELb0EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb1ELb0EEEvb:  Assume directive not useful: removing
+
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(413,12) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.tcc(450,35)
+   remark #15301: MATERIALIZED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(413,12) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.tcc(450,35)
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, false>::_M_add_equivalence_class(std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, false> *, const std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, false>::_StringT &)
+
+    Report from: Code generation optimizations [cg]
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(724:6)::_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EE24_M_add_equivalence_classERKNS1_12basic_stringIcSt11char_traitsIcESaIcEEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(725:14)::_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EE24_M_add_equivalence_classERKNS1_12basic_stringIcSt11char_traitsIcESaIcEEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(725:6)::_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EE24_M_add_equivalence_classERKNS1_12basic_stringIcSt11char_traitsIcESaIcEEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(726:6)::_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EE24_M_add_equivalence_classERKNS1_12basic_stringIcSt11char_traitsIcESaIcEEE:  Assume directive not useful: removing
+
+===========================================================================
+
+Begin optimization report for: std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, false>::_M_add_character_class(std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, false> *, const std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, false>::_StringT &, bool)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(1031,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(484,21)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(1031,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(484,21)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<std::pair<char, char>, std::allocator<std::pair<char, char>>>::_M_realloc_insert<std::remove_reference<std::vector<std::pair<char, char>, std::allocator<std::pair<char, char>>>::value_type &>::type>(std::vector<std::pair<char, char>, std::allocator<std::pair<char, char>>> *, std::vector<std::pair<char, char>, std::allocator<std::pair<char, char>>>::iterator, std::remove_reference<std::vector<std::pair<char, char>, std::allocator<std::pair<char, char>>>::value_type &>::type &&)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(1031,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(462,23)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(1031,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(462,23)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(1031,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(467,23)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/stl_uninitialized.h(1031,7) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/vector.tcc(467,23)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__detail::_Compiler<std::__cxx11::regex_traits<char>>::_M_insert_bracket_matcher<false, true>(std::__detail::_Compiler<std::__cxx11::regex_traits<char>> *, bool)
+
+    Report from: Code generation optimizations [cg]
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb0ELb1EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb0ELb1EEEvb:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb0ELb1EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb0ELb1EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb0ELb1EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb0ELb1EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb0ELb1EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb0ELb1EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb0ELb1EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb0ELb1EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb0ELb1EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb0ELb1EEEvb:  Assume directive not useful: removing
+
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(413,12) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.tcc(450,35)
+   remark #15301: MATERIALIZED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(413,12) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.tcc(450,35)
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__detail::_Compiler<std::__cxx11::regex_traits<char>>::_M_expression_term<false, true>(std::__detail::_Compiler<std::__cxx11::regex_traits<char>> *, std::pair<bool, std::__detail::_Compiler<std::__cxx11::regex_traits<char>>::_CharT> &, std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, true> &)
+
+    Report from: Code generation optimizations [cg]
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE:  Assume directive not useful: removing
+
+===========================================================================
+
+Begin optimization report for: std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, true>::_M_add_equivalence_class(std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, true> *, const std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, true>::_StringT &)
+
+    Report from: Code generation optimizations [cg]
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(724:6)::_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EE24_M_add_equivalence_classERKNS1_12basic_stringIcSt11char_traitsIcESaIcEEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(725:14)::_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EE24_M_add_equivalence_classERKNS1_12basic_stringIcSt11char_traitsIcESaIcEEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(725:6)::_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EE24_M_add_equivalence_classERKNS1_12basic_stringIcSt11char_traitsIcESaIcEEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(726:6)::_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EE24_M_add_equivalence_classERKNS1_12basic_stringIcSt11char_traitsIcESaIcEEE:  Assume directive not useful: removing
+
+===========================================================================
+
+Begin optimization report for: std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, true>::_M_make_range(std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, true> *, std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, true>::_CharT, std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, true>::_CharT)
+
+    Report from: Code generation optimizations [cg]
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.tcc(211:51)::_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EE13_M_make_rangeEcc:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+===========================================================================
+
+Begin optimization report for: std::__detail::_Compiler<std::__cxx11::regex_traits<char>>::_M_insert_bracket_matcher<false, false>(std::__detail::_Compiler<std::__cxx11::regex_traits<char>> *, bool)
+
+    Report from: Code generation optimizations [cg]
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb0ELb0EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb0ELb0EEEvb:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb0ELb0EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb0ELb0EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb0ELb0EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb0ELb0EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb0ELb0EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb0ELb0EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb0ELb0EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb0ELb0EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb0ELb0EEEvb:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb0ELb0EEEvb:  Assume directive not useful: removing
+
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(413,12) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.tcc(450,35)
+   remark #15301: MATERIALIZED LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.h(413,12) inlined into /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_compiler.tcc(450,35)
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_M_add_equivalence_class(std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false> *, const std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_StringT &)
+
+    Report from: Code generation optimizations [cg]
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(724:6)::_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EE24_M_add_equivalence_classERKNS1_12basic_stringIcSt11char_traitsIcESaIcEEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(725:14)::_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EE24_M_add_equivalence_classERKNS1_12basic_stringIcSt11char_traitsIcESaIcEEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(725:6)::_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EE24_M_add_equivalence_classERKNS1_12basic_stringIcSt11char_traitsIcESaIcEEE:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(726:6)::_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EE24_M_add_equivalence_classERKNS1_12basic_stringIcSt11char_traitsIcESaIcEEE:  Assume directive not useful: removing
+
+===========================================================================
+
+Begin optimization report for: std::__detail::_Compiler<std::__cxx11::regex_traits<char>>::_M_disjunction(std::__detail::_Compiler<std::__cxx11::regex_traits<char>> *)
+
+    Report from: Code generation optimizations [cg]
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE14_M_disjunctionEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE14_M_disjunctionEv:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE14_M_disjunctionEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE14_M_disjunctionEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE14_M_disjunctionEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE14_M_disjunctionEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE14_M_disjunctionEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE14_M_disjunctionEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE14_M_disjunctionEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE14_M_disjunctionEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE14_M_disjunctionEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE14_M_disjunctionEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1373:32)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE14_M_disjunctionEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1374:28)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE14_M_disjunctionEv:  Assume directive not useful: removing
+
+Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1376:20)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE14_M_disjunctionEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1377:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE14_M_disjunctionEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1378:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE14_M_disjunctionEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1379:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE14_M_disjunctionEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1380:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE14_M_disjunctionEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1381:5)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE14_M_disjunctionEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1367:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE14_M_disjunctionEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:15)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE14_M_disjunctionEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1368:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE14_M_disjunctionEv:  Assume directive not useful: removing
+
+/apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/basic_string.h(1369:7)::_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE14_M_disjunctionEv:  Assume directive not useful: removing
+
+===========================================================================
+
+Begin optimization report for: std::__detail::_Scanner<std::__detail::_Compiler<std::__cxx11::regex_traits<char>>::_CharT>::_M_scan_normal(std::__detail::_Scanner<std::__detail::_Compiler<std::__cxx11::regex_traits<char>>::_CharT> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /apps/all/GCCcore/11.2.0/include/c++/11.2.0/bits/regex_scanner.tcc(183,4)
+   remark #25460: No loop optimizations reported
+LOOP END
+===========================================================================

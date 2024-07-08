@@ -1,0 +1,81 @@
+-- The C compiler identification is Intel 2021.4.0.20210910
+-- The CXX compiler identification is Intel 2021.4.0.20210910
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /apps/all/intel-compilers/2021.4.0/compiler/2021.4.0/linux/bin/intel64/icc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /apps/all/intel-compilers/2021.4.0/compiler/2021.4.0/linux/bin/intel64/icpc - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ZLIB: /apps/all/zlib/1.2.11-GCCcore-11.2.0/lib/libz.so (found version "1.2.11") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xzbori20/avs/proj1/build_advisor
+/apps/all/CMake/3.23.1-GCCcore-11.3.0/bin/cmake -S/home/xzbori20/avs/proj1 -B/home/xzbori20/avs/proj1/build_advisor --check-build-system CMakeFiles/Makefile.cmake 0
+/apps/all/CMake/3.23.1-GCCcore-11.3.0/bin/cmake -E cmake_progress_start /home/xzbori20/avs/proj1/build_advisor/CMakeFiles /home/xzbori20/avs/proj1/build_advisor//CMakeFiles/progress.marks
+make  -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/xzbori20/avs/proj1/build_advisor'
+make  -f CMakeFiles/mandelbrot.dir/build.make CMakeFiles/mandelbrot.dir/depend
+make[2]: Entering directory '/home/xzbori20/avs/proj1/build_advisor'
+cd /home/xzbori20/avs/proj1/build_advisor && /apps/all/CMake/3.23.1-GCCcore-11.3.0/bin/cmake -E cmake_depends "Unix Makefiles" /home/xzbori20/avs/proj1 /home/xzbori20/avs/proj1 /home/xzbori20/avs/proj1/build_advisor /home/xzbori20/avs/proj1/build_advisor /home/xzbori20/avs/proj1/build_advisor/CMakeFiles/mandelbrot.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/xzbori20/avs/proj1/build_advisor'
+make  -f CMakeFiles/mandelbrot.dir/build.make CMakeFiles/mandelbrot.dir/build
+make[2]: Entering directory '/home/xzbori20/avs/proj1/build_advisor'
+[ 14%] Building CXX object CMakeFiles/mandelbrot.dir/calculators/BaseMandelCalculator.cc.o
+/apps/all/intel-compilers/2021.4.0/compiler/2021.4.0/linux/bin/intel64/icpc  -I/apps/all/zlib/1.2.11-GCCcore-11.2.0/include -I/home/xzbori20/avs/proj1/common -I/home/xzbori20/avs/proj1/calculators -O3 -mavx2 -xHost -qopt-zmm-usage=high -g -qopenmp-simd -qopt-report=1 -qopt-report-phase=vec -std=gnu++11 -MD -MT CMakeFiles/mandelbrot.dir/calculators/BaseMandelCalculator.cc.o -MF CMakeFiles/mandelbrot.dir/calculators/BaseMandelCalculator.cc.o.d -o CMakeFiles/mandelbrot.dir/calculators/BaseMandelCalculator.cc.o -c /home/xzbori20/avs/proj1/calculators/BaseMandelCalculator.cc
+[ 28%] Building CXX object CMakeFiles/mandelbrot.dir/calculators/BatchMandelCalculator.cc.o
+/apps/all/intel-compilers/2021.4.0/compiler/2021.4.0/linux/bin/intel64/icpc  -I/apps/all/zlib/1.2.11-GCCcore-11.2.0/include -I/home/xzbori20/avs/proj1/common -I/home/xzbori20/avs/proj1/calculators -O3 -mavx2 -xHost -qopt-zmm-usage=high -g -qopenmp-simd -qopt-report=1 -qopt-report-phase=vec -std=gnu++11 -MD -MT CMakeFiles/mandelbrot.dir/calculators/BatchMandelCalculator.cc.o -MF CMakeFiles/mandelbrot.dir/calculators/BatchMandelCalculator.cc.o.d -o CMakeFiles/mandelbrot.dir/calculators/BatchMandelCalculator.cc.o -c /home/xzbori20/avs/proj1/calculators/BatchMandelCalculator.cc
+[ 42%] Building CXX object CMakeFiles/mandelbrot.dir/calculators/LineMandelCalculator.cc.o
+/apps/all/intel-compilers/2021.4.0/compiler/2021.4.0/linux/bin/intel64/icpc  -I/apps/all/zlib/1.2.11-GCCcore-11.2.0/include -I/home/xzbori20/avs/proj1/common -I/home/xzbori20/avs/proj1/calculators -O3 -mavx2 -xHost -qopt-zmm-usage=high -g -qopenmp-simd -qopt-report=1 -qopt-report-phase=vec -std=gnu++11 -MD -MT CMakeFiles/mandelbrot.dir/calculators/LineMandelCalculator.cc.o -MF CMakeFiles/mandelbrot.dir/calculators/LineMandelCalculator.cc.o.d -o CMakeFiles/mandelbrot.dir/calculators/LineMandelCalculator.cc.o -c /home/xzbori20/avs/proj1/calculators/LineMandelCalculator.cc
+[ 57%] Building CXX object CMakeFiles/mandelbrot.dir/calculators/RefMandelCalculator.cc.o
+/apps/all/intel-compilers/2021.4.0/compiler/2021.4.0/linux/bin/intel64/icpc  -I/apps/all/zlib/1.2.11-GCCcore-11.2.0/include -I/home/xzbori20/avs/proj1/common -I/home/xzbori20/avs/proj1/calculators -O3 -mavx2 -xHost -qopt-zmm-usage=high -g -qopenmp-simd -qopt-report=1 -qopt-report-phase=vec -std=gnu++11 -MD -MT CMakeFiles/mandelbrot.dir/calculators/RefMandelCalculator.cc.o -MF CMakeFiles/mandelbrot.dir/calculators/RefMandelCalculator.cc.o.d -o CMakeFiles/mandelbrot.dir/calculators/RefMandelCalculator.cc.o -c /home/xzbori20/avs/proj1/calculators/RefMandelCalculator.cc
+[ 71%] Building CXX object CMakeFiles/mandelbrot.dir/common/cnpy.cc.o
+/apps/all/intel-compilers/2021.4.0/compiler/2021.4.0/linux/bin/intel64/icpc  -I/apps/all/zlib/1.2.11-GCCcore-11.2.0/include -I/home/xzbori20/avs/proj1/common -I/home/xzbori20/avs/proj1/calculators -O3 -mavx2 -xHost -qopt-zmm-usage=high -g -qopenmp-simd -qopt-report=1 -qopt-report-phase=vec -std=gnu++11 -MD -MT CMakeFiles/mandelbrot.dir/common/cnpy.cc.o -MF CMakeFiles/mandelbrot.dir/common/cnpy.cc.o.d -o CMakeFiles/mandelbrot.dir/common/cnpy.cc.o -c /home/xzbori20/avs/proj1/common/cnpy.cc
+[ 85%] Building CXX object CMakeFiles/mandelbrot.dir/main.cc.o
+/apps/all/intel-compilers/2021.4.0/compiler/2021.4.0/linux/bin/intel64/icpc  -I/apps/all/zlib/1.2.11-GCCcore-11.2.0/include -I/home/xzbori20/avs/proj1/common -I/home/xzbori20/avs/proj1/calculators -O3 -mavx2 -xHost -qopt-zmm-usage=high -g -qopenmp-simd -qopt-report=1 -qopt-report-phase=vec -std=gnu++11 -MD -MT CMakeFiles/mandelbrot.dir/main.cc.o -MF CMakeFiles/mandelbrot.dir/main.cc.o.d -o CMakeFiles/mandelbrot.dir/main.cc.o -c /home/xzbori20/avs/proj1/main.cc
+[100%] Linking CXX executable mandelbrot
+/apps/all/CMake/3.23.1-GCCcore-11.3.0/bin/cmake -E cmake_link_script CMakeFiles/mandelbrot.dir/link.txt --verbose=1
+/apps/all/intel-compilers/2021.4.0/compiler/2021.4.0/linux/bin/intel64/icpc -O3 -mavx2 -xHost -qopt-zmm-usage=high -g -qopenmp-simd -qopt-report=1 -qopt-report-phase=vec CMakeFiles/mandelbrot.dir/calculators/BaseMandelCalculator.cc.o CMakeFiles/mandelbrot.dir/calculators/BatchMandelCalculator.cc.o CMakeFiles/mandelbrot.dir/calculators/LineMandelCalculator.cc.o CMakeFiles/mandelbrot.dir/calculators/RefMandelCalculator.cc.o CMakeFiles/mandelbrot.dir/common/cnpy.cc.o CMakeFiles/mandelbrot.dir/main.cc.o -o mandelbrot  /apps/all/zlib/1.2.11-GCCcore-11.2.0/lib/libz.so 
+make[2]: Leaving directory '/home/xzbori20/avs/proj1/build_advisor'
+[100%] Built target mandelbrot
+make[1]: Leaving directory '/home/xzbori20/avs/proj1/build_advisor'
+/apps/all/CMake/3.23.1-GCCcore-11.3.0/bin/cmake -E cmake_progress_start /home/xzbori20/avs/proj1/build_advisor/CMakeFiles 0
+======================== Mandelbrot SIMD calculator ==========================
+Calculator:        RefMandelCalculator
+Base size:         4096
+Matrix size:       12288x8192
+Iteration limit:   100
+Elapsed Time:      7509 ms
+======================== Mandelbrot SIMD calculator ==========================
+Calculator:        RefMandelCalculator
+Base size:         4096
+Matrix size:       12288x8192
+Iteration limit:   100
+Elapsed Time:      26838 ms
+======================== Mandelbrot SIMD calculator ==========================
+Calculator:        BatchMandelCalculator
+Base size:         4096
+Matrix size:       12288x8192
+Iteration limit:   100
+Elapsed Time:      815 ms
+======================== Mandelbrot SIMD calculator ==========================
+Calculator:        BatchMandelCalculator
+Base size:         4096
+Matrix size:       12288x8192
+Iteration limit:   100
+Elapsed Time:      4415 ms
+======================== Mandelbrot SIMD calculator ==========================
+Calculator:        LineMandelCalculator
+Base size:         4096
+Matrix size:       12288x8192
+Iteration limit:   100
+Elapsed Time:      983 ms
+======================== Mandelbrot SIMD calculator ==========================
+Calculator:        LineMandelCalculator
+Base size:         4096
+Matrix size:       12288x8192
+Iteration limit:   100
+Elapsed Time:      5914 ms
